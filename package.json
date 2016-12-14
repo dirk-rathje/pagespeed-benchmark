@@ -1,0 +1,12 @@
+{
+  "name": "pagespeed-benchmark",
+  "version": "1.0.0",
+  "description": "Compares the impact of best practices for boosting page speed",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/dirk-rathje/pagespeed-benchmark.git",
+    "type": "git"
+  },
+  "author": "Dirk Rathje <post@dirk-rathje.de>",
+  "license": "MIT"
+}
