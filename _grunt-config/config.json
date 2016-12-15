@@ -1,0 +1,10 @@
+{
+    "paths": {
+        "build": {
+            "grunticon": "_build/grunticon",
+            "dev": "_build/dev",
+            "report": "_build/report"
+        },
+        "source": "_source"
+    }
+}

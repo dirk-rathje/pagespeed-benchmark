@@ -1,0 +1,13 @@
+{
+    "dev": [
+        "<%= config.paths.build.dev %>/**/*.html"
+    ],
+    "prod": [
+        "<%= config.paths.build.dev %>/**/*.html"
+    ],
+    "options": {
+
+        "reporter": "junit",
+        "reporterOutput": "<%= config.paths.build.report %>/htmllint.xml"
+    }
+}

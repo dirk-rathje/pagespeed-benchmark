@@ -1,0 +1,18 @@
+{
+    "options": {
+        "keepalive": true
+    },
+    "dev": {
+        "options": {
+
+            "livereload": false,
+            "port": 9001,
+            "hostname": "localhost",
+            "open": true,
+            "base": [
+                ".tmp",
+                "<%= config.paths.build.dev %>"
+            ]
+        }
+    }   
+}
