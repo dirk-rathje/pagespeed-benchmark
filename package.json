@@ -39,6 +39,8 @@
     "grunt-favicons": "^0.8.0",
     "grunt-grunticon": "^2.3.1",
     "grunt-html": "^8.0.2",
+    "grunt-sitespeedio": "^1.1.0",
+    "grunt-ssh": "^0.12.9",
     "grunt-stylint": "^0.1.2",
     "grunt-webpack": "2.0.0-beta.5",
     "grunt-zip": "^0.17.1",

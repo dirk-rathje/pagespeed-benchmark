@@ -29,21 +29,19 @@ module.exports = function (grunt) {
 
     grunt.initConfig(configs);
 
-    grunt.registerTask('build', ['clean', 'webpack', 'stylus', 'copy', 'createPages']);
+    grunt.registerTask('build', ['clean', 'webpack', 'stylus', 'copy', 'createSample']);
+    grunt.registerTask('measure', ['sitespeedio:bestPractices']);
 
-    grunt.registerTask('default', ['build']);
+    grunt.registerTask('default', ['build', 'measure']);
 
 
-    grunt.registerTask('createPages', 'A sample task that logs stuff.', function () {
-        // if (arguments.length === 0) {
-        //     grunt.log.writeln(this.name + ", no args");
-        // } else {
-        //     grunt.log.writeln(this.name + ", " + arg1 + " " + arg2);
-        // }
+    grunt.registerTask('createSample', 'A sample task that logs stuff.', function () {
 
-        const PageCreator = require("./_source/page-creator.js")
+        const SampleCreator = require("./_source/SampleCreator.js")
 
-        let pageCreator = new PageCreator();
-
+        let sampleCreator = new SampleCreator();
+        sampleCreator.createBestPracticeSamples()
+        sampleCreator.createTCPSlowStartSamples()
     });
+
 };

@@ -10,8 +10,8 @@
             "hostname": "localhost",
             "open": true,
             "base": [
-                ".tmp",
-                "<%= config.paths.build.dev %>"
+
+                "<%= config.paths.build.dev_htdocs %>"
             ]
         }
     }   

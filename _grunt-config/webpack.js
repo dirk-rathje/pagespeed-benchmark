@@ -16,7 +16,7 @@ module.exports = function (grunt, options) {
         output: {
 
             
-            path: "./_build/0.1.0/htdocs/0.1.0/_shared/",
+            path: "./_build/htdocs/_shared/",
             filename: "script.js"
 
         },
@@ -84,7 +84,7 @@ module.exports = function (grunt, options) {
         output: {
 
             
-            path: "./_build/0.1.0/htdocs/0.1.0/_shared/",
+            path: "./_build/htdocs/_shared/",
             filename: "script.jslibraries-shaken.js"
 
         },

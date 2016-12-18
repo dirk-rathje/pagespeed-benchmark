@@ -20,13 +20,13 @@ module.exports = function (grunt, options) {
                 ]
             },
             "files": {
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/fonts.css": "<%= config.paths.source %>/styles/fonts.styl",
+                "<%= config.paths.build.dev_htdocs %>/_shared/fonts.css": "<%= config.paths.source %>/styles/fonts.styl",
 
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/styles.css": "<%= config.paths.source %>/styles/styles.styl",
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.css": "<%= config.paths.source %>/styles/styles.styl",
 
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/styles.bootstrap.css": "<%= config.paths.source %>/styles/styles.bootstrap.styl",
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap.css": "<%= config.paths.source %>/styles/styles.bootstrap.styl",
 
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/styles.bootstrap-shaken.css": "<%= config.paths.source %>/styles/styles.bootstrap-shaken.styl"
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap-shaken.css": "<%= config.paths.source %>/styles/styles.bootstrap-shaken.styl"
             }
         },
         "dev_min": {
@@ -40,15 +40,15 @@ module.exports = function (grunt, options) {
                 ]
             },
             "files": {
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/fonts.min.css": "<%= config.paths.source %>/styles/fonts.styl",
+                "<%= config.paths.build.dev_htdocs %>/_shared/fonts.min.css": "<%= config.paths.source %>/styles/fonts.styl",
 
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/styles.min.css": "<%= config.paths.source %>/styles/styles.styl",
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.min.css": "<%= config.paths.source %>/styles/styles.styl",
 
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/styles.bootstrap.min.css": 
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap.min.css": 
                 
                 "<%= config.paths.source %>/styles/styles.bootstrap.styl",
 
-                "<%= config.paths.build.dev_htdocs_version %>/_shared/styles.bootstrap-shaken.min.css": "<%= config.paths.source %>/styles/styles.bootstrap-shaken.styl"
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap-shaken.min.css": "<%= config.paths.source %>/styles/styles.bootstrap-shaken.styl"
             }
         },
 
