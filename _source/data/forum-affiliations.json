@@ -1,0 +1,346 @@
+[
+  {
+    "id": "cern",
+    "name__short": "CERN",
+    "name": "CERN",
+    "lat": "46.233333",
+    "lng": "6.049167",
+    "electoral-group": "abroad"
+  },
+  {
+    "id": "cfel",
+    "name__short": "CFEL",
+    "name": "Center for Free-Electron Laser Science",
+    "lat": "53.5790478",
+    "lng": "9.885067",
+    "electoral-group": "others"
+  },
+  {
+    "id": "desy",
+    "name__short": "DESY",
+    "name": "DESY (Hamburg / Zeuthen)",
+    "lat": "53.5790478",
+    "lng": "9.885067",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "desy-hamburg",
+    "name__short": "DESY Hamburg",
+    "name": "DESY Hamburg",
+    "lat": "53.575833",
+    "lng": "9.880547",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "desy-zeuthen",
+    "name__short": "DESY Zeuthen",
+    "name": "DESY Zeuthen",
+    "lat": "52.3456192",
+    "lng": "13.6329787",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "esrf",
+    "name__short": "ESRF",
+    "name": "European Synchrotron Radiation Facility",
+    "lat": "45.208477",
+    "lng": "5.689927",
+    "electoral-group": "abroad"
+  },
+  {
+    "id": "ess",
+    "name__short": "ESS",
+    "name": "European Spallatation Source",
+    "lat": "55.734199",
+    "lng": "13.249533",
+    "electoral-group": "abroad"
+  },
+  {
+    "id": "eth-zuerich",
+    "name__short": "ETH Zürich",
+    "name": "Eidgenössische Technische Hochschule Zürich",
+    "lat": "47.376389",
+    "lng": "8.548056",
+    "electoral-group": "abroad"
+  },
+  {
+    "id": "european-xfel-gmbh",
+    "name__short": "European XFEL",
+    "name": "European XFEL",
+    "lat": "53.588611",
+    "lng": "9.829444",
+    "electoral-group": "others"
+  },
+  {
+    "id": "fair-gmbh",
+    "name__short": "FAIR",
+    "name": "FAIR",
+    "lat": "49.931389",
+    "lng": "8.679167",
+    "electoral-group": "others"
+  },
+  {
+    "id": "fz-juelich",
+    "name__short": "FZ Jülich",
+    "name": "Forschungszentrum Jülich",
+    "lat": "50.9",
+    "lng": "6.411944",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "gsi",
+    "name__short": "GSI",
+    "name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "lat": "49.931389",
+    "lng": "8.679167",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "helmholtz-gemeinschaft",
+    "name__short": "Helmholtz-Gemeinschaft",
+    "name": "Helmholtz-Gemeinschaft Deutscher Forschungszentren e.V.",
+    "lat": "52.520853",
+    "lng": "13.401933",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "hi-mainz",
+    "name__short": "Helmholtz-Institut Mainz",
+    "name": "Helmholtz-Institut Mainz",
+    "lat": "49.9915834",
+    "lng": "8.2350083",
+    "electoral-group": "university"
+  },
+  {
+    "id": "hit",
+    "name__short": "HIT",
+    "name": "Heidelberger Ionenstrahl-Therapiezentrum (HIT)",
+    "lat": "49.4175",
+    "lng": "8.663889",
+    "electoral-group": "others"
+  },
+  {
+    "id": "hu-berlin",
+    "name__short": "HU Berlin",
+    "name": "Humboldt-Universität zu Berlin",
+    "lat": "52.432122",
+    "lng": "13.533304",
+    "electoral-group": "university"
+  },
+  {
+    "id": "hzb",
+    "name__short": "HZB",
+    "name": "Helmholtz-Zentrum Berlin",
+    "lat": "52.530648",
+    "lng": "13.382366",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "hzdr",
+    "name__short": "HZDR",
+    "name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "lat": "52.41",
+    "lng": "13.129444",
+    "electoral-group": "helmholtz"
+  },
+  {
+    "id": "kit",
+    "name__short": "KIT",
+    "name": "Karlsruher Institut für Technologie",
+    "lat": "51.063611",
+    "lng": "13.949722",
+    "electoral-group": "university"
+  },
+  {
+    "id": "leibniz",
+    "name__short": "Leibniz Gemeinschaft",
+    "name": "Leibniz Gemeinschaft",
+    "lat": "49.00947",
+    "lng": "8.41167",
+    "electoral-group": "others"
+  },
+  {
+    "id": "lmu",
+    "name__short": "LMU München",
+    "name": "Ludwig-Maximilians-Universität München",
+    "lat": "48.150833",
+    "lng": "11.580278",
+    "electoral-group": "university"
+  },
+  {
+    "id": "mit",
+    "name__short": "MIT",
+    "name": "Marburger Ionenstrahl-Therapiezentrum (MIT)",
+    "lat": "50.818731",
+    "lng": "8.805498",
+    "electoral-group": "others"
+  },
+  {
+    "id": "mpik",
+    "name__short": "MPIK",
+    "name": "Max-Planck-Institut für Kernphysik",
+    "lat": "49.387778",
+    "lng": "8.709167",
+    "electoral-group": "others"
+  },
+  {
+    "id": "mpp",
+    "name__short": "MPP",
+    "name": "Max-Planck-Institut für Physik",
+    "lat": "48.185500",
+    "lng": "11.613180",
+    "electoral-group": "university"
+  },
+  {
+    "id": "psi",
+    "name__short": "PSI",
+    "name": "Paul Scherrer Institut",
+    "lat": "47.536111",
+    "lng": "8.222778",
+    "electoral-group": "abroad"
+  },
+  {
+    "id": "ptb",
+    "name__short": "PTB",
+    "name": "Physikalisch-Technische Bundesanstalt",
+    "lat": "52.295278",
+    "lng": "10.463611",
+    "electoral-group": "others"
+  },
+  {
+    "id": "rwth-aachen",
+    "name__short": "RWTH Aachen",
+    "name": "Rheinisch-Westfälische Technische Hochschule Aachen",
+    "lat": "50.778856",
+    "lng": "6.059911",
+    "electoral-group": "university"
+  },
+  {
+    "id": "tu-berlin",
+    "name__short": "TU Berlin",
+    "name": "Technische Universität Berlin",
+    "lat": "52.5131317",
+    "lng": "13.3202612",
+    "electoral-group": "university"
+  },
+  {
+    "id": "tu-darmstadt",
+    "name__short": "TU Darmstadt",
+    "name": "Technische Universität Darmstadt",
+    "lat": "49.875",
+    "lng": "8.656944",
+    "electoral-group": "university"
+  },
+  {
+    "id": "tu-dortmund",
+    "name__short": "TU Dortmund",
+    "name": "Technische Universität Dortmund",
+    "lat": "51.492461",
+    "lng": "7.414267",
+    "electoral-group": "university"
+  },
+  {
+    "id": "tu-dresden",
+    "name__short": "TU Dresden",
+    "name": "Technische Universität Dresden",
+    "lat": "51.028056",
+    "lng": "13.726667",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-bonn",
+    "name__short": "Uni Bonn",
+    "name": "Universität Bonn",
+    "lat": "50.733889",
+    "lng": "7.102222",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-duesseldorf",
+    "name__short": "Uni Düsseldorf",
+    "name": "Heinrich Heine Universität Düsseldorf",
+    "lat": "51.190278",
+    "lng": "6.794167",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-frankfurt",
+    "name__short": "Uni Frankfurt",
+    "name": "Goethe-Universität Frankfurt am Main",
+    "lat": "50.119444",
+    "lng": "8.651389",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-goettingen",
+    "name__short": "Uni Göttingen",
+    "name": "Georg-August-Universität Göttingen",
+    "lat": "51.541861",
+    "lng": "9.934475",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-hamburg",
+    "name__short": "Uni Hamburg",
+    "name": "Universität Hamburg",
+    "lat": "53.566944",
+    "lng": "9.983889",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-heidelberg",
+    "name__short": "Uni Heidelberg",
+    "name": "Ruprecht-Karls-Universität Heidelberg",
+    "lat": "49.410492",
+    "lng": "8.70659",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-jena",
+    "name__short": "Uni Jena",
+    "name": "Friedrich-Schiller-Universität Jena",
+    "lat": "50.929444",
+    "lng": "11.589444",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-kassel",
+    "name__short": "Uni Kassel",
+    "name": "Universität Kassel",
+    "lat": "51.322774",
+    "lng": "9.507562",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-mainz",
+    "name__short": "Uni Mainz",
+    "name": "Universität Mainz",
+    "lat": "49.993056",
+    "lng": "8.241667",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-rostock",
+    "name__short": "Uni Rostock",
+    "name": "Universität Rostock",
+    "lat": "54.088133",
+    "lng": "12.133373",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-siegen",
+    "name__short": "Uni Siegen",
+    "name": "Universität Siegen",
+    "lat": "50.906389",
+    "lng": "8.028333",
+    "electoral-group": "university"
+  },
+  {
+    "id": "uni-wuppertal",
+    "name__short": "Uni Wuppertal",
+    "name": "Bergische Universität Wuppertal",
+    "lat": "51.245278",
+    "lng": "7.149444",
+    "electoral-group": "university"
+  }
+]

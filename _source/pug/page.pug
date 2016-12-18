@@ -1,5 +1,16 @@
 include ./lorem.pug
 
+
+
+- var minifyInfix = ""
+if (data.minify === "minify")
+   - var minifyInfix = ".min"
+
+- var assetsFolder = "../_shared/"
+if (data.compress === "compress")
+    - var assetsFolder =  "../_shared_compressed/"
+
+
 doctype html
 html(lang="de")
 
@@ -9,81 +20,33 @@ html(lang="de")
         meta(name="viewport", content="width=device-width, initial-scale=1")
         
         
-        if (data.bootstrap === "bootstrap_external"  && data.minify === "dont_minify" && data.compress === "dont_compress")
-            link(href="../_shared/bootstrap.css", rel="stylesheet")
-            link(href="../_shared/styles.css", rel="stylesheet")
+        if (data.bootstrap === "bootstrap-external")
+            link(href=assetsFolder + "bootstrap" + minifyInfix + ".css", rel="stylesheet")
+            link(href=assetsFolder + "styles" + minifyInfix + ".css", rel="stylesheet")
 
-        if (data.bootstrap === "bootstrap_external"  && data.minify === "dont_minify" && data.compress === "compress")
-            link(href="../_shared_compressed/bootstrap.css.gz", rel="stylesheet")
-            link(href="../_shared_compressed/styles.css.gz", rel="stylesheet")
+        if (data.bootstrap === "bootstrap-bundled")
+            link(href=assetsFolder + "styles.bootstrap" + minifyInfix + ".css", rel="stylesheet")
 
-
-        if (data.bootstrap === "bootstrap_external"  && data.minify === "minify"  && data.compress === "dont_compress")
-            link(href="../_shared/bootstrap.min.css", rel="stylesheet")
-            link(href="../_shared/styles.min.css", rel="stylesheet")
-
-        if (data.bootstrap === "bootstrap_external"  && data.minify === "minify"  && data.compress === "compress")
-            link(href="../_shared_compressed/bootstrap.min.css.gz", rel="stylesheet")
-            link(href="../_shared_compressed/styles.min.css.gz", rel="stylesheet")
-
-
-        if (data.bootstrap === "bootstrap_bundled"  && data.minify === "dont_minify" && data.compress === "dont_compress")
-            link(href="../_shared/styles.bootstrap.css", rel="stylesheet")
-        if (data.bootstrap === "bootstrap_bundled"  && data.minify === "dont_minify"   && data.compress === "compress")
-            link(href="../_shared_compressed/styles.bootstrap.css.gz", rel="stylesheet")
-
-
-        if (data.bootstrap === "bootstrap_bundled"  && data.minify === "minify"  && data.compress === "dont_compress")
-            link(href="../_shared/styles.bootstrap.min.css", rel="stylesheet")
-        if (data.bootstrap === "bootstrap_bundled"  && data.minify === "minify"  && data.compress === "compress")
-            link(href="../_shared_compressed/styles.bootstrap.min.css.gz", rel="stylesheet")
-        
-
-        if (data.bootstrap === "bootstrap_bundled_shaken"  && data.minify === "dont_minify" && data.compress === "dont_compress")
-            link(href="../_shared/styles.bootstrap-shaken.css", rel="stylesheet")
-        if (data.bootstrap === "bootstrap_bundled_shaken"  && data.minify === "dont_minify" && data.compress === "compress")
-            link(href="../_shared_compressed/styles.bootstrap-shaken.css.gz", rel="stylesheet")
-                
-
-        if (data.bootstrap === "bootstrap_bundled_shaken"  && data.minify === "minify" && data.compress === "dont_compress")
-            link(href="../_shared/styles.bootstrap-shaken.min.css", rel="stylesheet")
-        if (data.bootstrap === "bootstrap_bundled_shaken"  && data.minify === "minify" && data.compress === "compress")
-            link(href="../_shared_compressed/styles.bootstrap-shaken.min.css.gz", rel="stylesheet")
-
-        
-        if (data.js_libraries === "jquery_d3_external" && data.defer_scripts === "dont_defer_scripts" && data.minify === "dont_minify" && data.compress === "dont_compress")
-            script(src="../_shared/jquery.js")
-            script(src="../_shared/d3.js")
-        
-        if (data.js_libraries === "jquery_d3_external" && data.defer_scripts === "dont_defer_scripts" && data.minify === "dont_minify" && data.compress === "compress")
-            script(src="../_shared_compressed/jquery.js.gz")
-            script(src="../_shared_compressed/d3.js.gz")
-
+        if (data.bootstrap === "bootstrap-bundled-shaken")
+            link(href=assetsFolder + "styles.bootstrap-shaken" + minifyInfix + ".css", rel="stylesheet")
 
 
         block title
             title PageSpeed benchmark
 
-        link(href="../favicon.png", rel="icon")
-
-
 
 
     body
-        +lipsum(10, "paragraphs")
 
-        if (data.js_libraries === "jquery_d3_external" && data.defer_scripts === "defer_scripts" && data.minify === "dont_minify" && data.compress === "dont_compress")
-            script(src="../_shared/jquery.js" defer)
-            script(src="../_shared/d3.js" defer)
+        .c-kfb-forum-chart
+        
+      
+        if (data.jslibraries === "jslibraries-external")
+            script(src=assetsFolder + "jquery" + minifyInfix + ".js")
+            script(src=assetsFolder + "d3" + minifyInfix + ".js")
+            script(src=assetsFolder + "topojson" + minifyInfix + ".js")
+            script(src=assetsFolder + "script" + ".js")
 
-        if (data.js_libraries === "jquery_d3_external" && data.defer_scripts === "defer_scripts" && data.minify === "minify" && data.compress === "dont_compress")
-            script(src="../_shared/jquery.min.js" defer)
-            script(src="../_shared/d3.min.js" defer)
+        if (data.jslibraries === "jslibraries-shaken")
+            script(src=assetsFolder + "script.jslibraries-shaken" + ".js" async)
 
-        if (data.js_libraries === "jquery_d3_external" && data.defer_scripts === "defer_scripts" && data.minify === "dont_minify" && data.compress === "compress")
-            script(src="../_shared_compressed/jquery.js.gz" defer)
-            script(src="../_shared_compressed/d3.js.gz" defer)
-
-        if (data.js_libraries === "jquery_d3_external" && data.defer_scripts === "defer_scripts" && data.minify === "minify" && data.compress === "compress")
-            script(src="../_shared_compressed/jquery.min.js.gz" defer)
-            script(src="../_shared_compressed/d3.min.js.gz" defer)

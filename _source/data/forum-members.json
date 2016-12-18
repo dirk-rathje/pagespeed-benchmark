@@ -1,0 +1,4032 @@
+[
+  {
+    "givenName": "Michael",
+    "familyName": "Abo-Bakr",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Wolfgang",
+    "familyName": "Anders",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Aleksandar",
+    "familyName": "Angelovski",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Sabrina",
+    "familyName": "Appel",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "André",
+    "familyName": "Arnold",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ralph",
+    "familyName": "Assmann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Terry",
+    "familyName": "Atkinson",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Kurt",
+    "familyName": "Aulenbacher",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Thore",
+    "familyName": "Bahlo",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Johannes",
+    "familyName": "Bahrdt",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Mei",
+    "familyName": "Bai",
+    "academicTitle": "Professor",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ralph",
+    "familyName": "Bär",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Roman",
+    "familyName": "Barday",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Winfried",
+    "familyName": "Barth",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Christopher",
+    "familyName": "Behrens",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Axel",
+    "familyName": "Bernhard",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Wilhelm",
+    "familyName": "Bialowons",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Jonny",
+    "familyName": "Birkhan",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Jörn",
+    "familyName": "Bödewadt",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Oliver",
+    "familyName": "Boine-Frankenheim",
+    "academicTitle": "Professor",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": "kfb-deputy-chairman"
+  },
+  {
+    "givenName": "Uwe",
+    "familyName": "Bonnes",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Emanuele",
+    "familyName": "Brentegani",
+    "academicTitle": "",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Frank",
+    "familyName": "Brinker",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Reinhard",
+    "familyName": "Brinkmann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Miriam",
+    "familyName": "Brosi",
+    "academicTitle": "",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Theresa",
+    "familyName": "Brümmer",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Büscher",
+    "academicTitle": "Dr.",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Karsten",
+    "familyName": "Büßer",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Hartmut",
+    "familyName": "Büttig",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Allen",
+    "familyName": "Caldwell",
+    "academicTitle": "",
+    "affiliation_id": "mpp",
+    "affiliation_name": "Max-Planck-Institut für Physik",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Sara",
+    "familyName": "Casalbuoni",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Fritz",
+    "familyName": "Caspers",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Rainer",
+    "familyName": "Cee",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hit",
+    "affiliation_name": "Heidelberger Ionenstrahl-Therapiezentrum (HIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Stanislav",
+    "familyName": "Chekmenev",
+    "academicTitle": "",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Oleksandr",
+    "familyName": "Chorniy",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Clemens",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-wuppertal",
+    "affiliation_name": "Bergische Universität Wuppertal",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Gianluigi",
+    "familyName": "Clemente",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Herbert",
+    "familyName": "De Gersem",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Bernd",
+    "familyName": "Dehning",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Andreas",
+    "familyName": "Dieckmann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Martin",
+    "familyName": "Droba",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Dirk",
+    "familyName": "Duellmann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Florian",
+    "familyName": "Dziuba",
+    "academicTitle": "",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Lewin",
+    "familyName": "Eidam",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Youssef",
+    "familyName": "El Hayek",
+    "academicTitle": "",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Eckhard",
+    "familyName": "Elsen",
+    "academicTitle": "Professor",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Joachim",
+    "familyName": "Enders",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Friederike",
+    "familyName": "Ewald",
+    "academicTitle": "Dr.",
+    "affiliation_id": "esrf",
+    "affiliation_name": "European Synchrotron Radiation Facility",
+    "gender": "m",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Fjodor",
+    "familyName": "Falkenstern",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Matthias",
+    "familyName": "Felber",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Thomas",
+    "familyName": "Flisgen",
+    "academicTitle": "",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Brian",
+    "familyName": "Foster",
+    "academicTitle": "Professor",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Giuliano",
+    "familyName": "Franchetti",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Yuliya",
+    "familyName": "Fritzsche",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Frank",
+    "familyName": "Frommberger",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Matthias",
+    "familyName": "Fuchs",
+    "academicTitle": "",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Tomasz",
+    "familyName": "Galek",
+    "academicTitle": "",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Michael",
+    "familyName": "Galonska",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hit",
+    "affiliation_name": "Heidelberger Ionenstrahl-Therapiezentrum (HIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Andreas",
+    "familyName": "Gaupp",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Michael",
+    "familyName": "Gensch",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Frank",
+    "familyName": "Gerigk",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Erion",
+    "familyName": "Gjonaj",
+    "academicTitle": "Dr.",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Hans-Walter",
+    "familyName": "Glock",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Tobias",
+    "familyName": "Goetsch",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Paul",
+    "familyName": "Goslawski",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Bert",
+    "familyName": "Green",
+    "academicTitle": "",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Lars",
+    "familyName": "Groening",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Matthias",
+    "familyName": "Groß",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Henning",
+    "familyName": "Groth",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Oliver",
+    "familyName": "Haas",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Ahmad Fahim",
+    "familyName": "Habib",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Klaus",
+    "familyName": "Hanke",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Jens",
+    "familyName": "Harzheim",
+    "academicTitle": "",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Friedrich",
+    "familyName": "Haug",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Lutz",
+    "familyName": "Hein",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Johann",
+    "familyName": "Heller",
+    "academicTitle": "",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Maria",
+    "familyName": "Hempel",
+    "academicTitle": "",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Franz",
+    "familyName": "Herzog",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Jan Henry",
+    "familyName": "Hetzel",
+    "academicTitle": "",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Nikolas",
+    "familyName": "Heurich",
+    "academicTitle": "",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Bernhard",
+    "familyName": "Hidding",
+    "academicTitle": "Professor",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Wolfgang",
+    "familyName": "Hillert",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": "kfb-chairman"
+  },
+  {
+    "givenName": "Volker",
+    "familyName": "Hinrichsen",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Wolfgang",
+    "familyName": "Hoefle",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "André",
+    "familyName": "Hofmann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hi-mainz",
+    "affiliation_name": "Helmholtz-Institut Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Klaus",
+    "familyName": "Hofmann",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Florian",
+    "familyName": "Holy",
+    "academicTitle": "",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Bernhard",
+    "familyName": "Holzer",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Höner",
+    "academicTitle": "",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Klaus",
+    "familyName": "Höppner",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hit",
+    "affiliation_name": "Heidelberger Ionenstrahl-Therapiezentrum (HIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Florian",
+    "familyName": "Hug",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Igor",
+    "familyName": "Isaev",
+    "academicTitle": "",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Benjamin",
+    "familyName": "Isbarn",
+    "academicTitle": "",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Jörn",
+    "familyName": "Jacob",
+    "academicTitle": "Dr.",
+    "affiliation_id": "esrf",
+    "affiliation_name": "European Synchrotron Radiation Facility",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Eberhard",
+    "familyName": "Jaeschke",
+    "academicTitle": "Professor",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Rolf",
+    "familyName": "Jakoby",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Andreas",
+    "familyName": "Jankowiak",
+    "academicTitle": "Professor",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "Erk",
+    "familyName": "Jensen",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Tobias",
+    "familyName": "Junginger",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Lars",
+    "familyName": "Jürgensen",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Davit",
+    "familyName": "Kalantaryan",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Malte",
+    "familyName": "Kaluza",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-jena",
+    "affiliation_name": "Friedrich-Schiller-Universität Jena",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Thorsten",
+    "familyName": "Kamps",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Oliver",
+    "familyName": "Karger",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Erika",
+    "familyName": "Kazantseva",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Aamna",
+    "familyName": "Khan",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Manuel",
+    "familyName": "Kirchen",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Jens",
+    "familyName": "Knobloch",
+    "academicTitle": "Professor",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Olena",
+    "familyName": "Kononenko",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Rebecca",
+    "familyName": "Koop",
+    "academicTitle": "",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Sergey",
+    "familyName": "Kovalev",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Dieter",
+    "familyName": "Krämer",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Claude",
+    "familyName": "Krantz",
+    "academicTitle": "Dr.",
+    "affiliation_id": "mit",
+    "affiliation_name": "Marburger Ionenstrahl-Therapiezentrum (MIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Mikhail",
+    "familyName": "Krasilnikov",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Hans-Joachim",
+    "familyName": "Kreidel",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Benno",
+    "familyName": "Kröck",
+    "academicTitle": "",
+    "affiliation_id": "mit",
+    "affiliation_name": "Marburger Ionenstrahl-Therapiezentrum (MIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Gero",
+    "familyName": "Kube",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Oliver",
+    "familyName": "Kugeler",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Michael",
+    "familyName": "Kuntzsch",
+    "academicTitle": "",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Stefan",
+    "familyName": "Lagotzky",
+    "academicTitle": "",
+    "affiliation_id": "uni-wuppertal",
+    "affiliation_name": "Bergische Universität Wuppertal",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Andy",
+    "familyName": "Langner",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Christoph",
+    "familyName": "Lechner",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ulf",
+    "familyName": "Lehnert",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Dieter",
+    "familyName": "Lens",
+    "academicTitle": "Dr.",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Vincent",
+    "familyName": "Leroux",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Cong",
+    "familyName": "Liu",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Bernd",
+    "familyName": "Lorentz",
+    "academicTitle": "Dr.",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Michael",
+    "familyName": "Ludwig",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Dominik",
+    "familyName": "Mäder",
+    "academicTitle": "",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Carsten",
+    "familyName": "Mai",
+    "academicTitle": "",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Rudolf",
+    "familyName": "Maier",
+    "academicTitle": "Professor",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Helmut",
+    "familyName": "Mais",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Barbara",
+    "familyName": "Marchetti",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Sebastian",
+    "familyName": "Marsching",
+    "academicTitle": "",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Christoph",
+    "familyName": "Matejcek",
+    "academicTitle": "",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Timon",
+    "familyName": "Mehrling",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Atoosa",
+    "familyName": "Meseck",
+    "academicTitle": "PD Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "Philipp",
+    "familyName": "Messner",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Sebastian",
+    "familyName": "Mey",
+    "academicTitle": "",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Peter",
+    "familyName": "Michel",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Sascha",
+    "familyName": "Mickat",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Tripti Shekhar",
+    "familyName": "Mohite",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Wolf-Dietrich",
+    "familyName": "Möller",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Robert",
+    "familyName": "Molo",
+    "academicTitle": "",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Jörg",
+    "familyName": "Mosthaf",
+    "academicTitle": "",
+    "affiliation_id": "hit",
+    "affiliation_name": "Heidelberger Ionenstrahl-Therapiezentrum (HIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Norbert",
+    "familyName": "Müller",
+    "academicTitle": "",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Günter",
+    "familyName": "Müller",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-wuppertal",
+    "affiliation_name": "Bergische Universität Wuppertal",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Bernhard",
+    "familyName": "Müller",
+    "academicTitle": "",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Wolfgang F.O.",
+    "familyName": "Müller",
+    "academicTitle": "Dr.",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Uwe",
+    "familyName": "Niedermayer",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Fritz",
+    "familyName": "Nolden",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Carsten",
+    "familyName": "Omet",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "David",
+    "familyName": "Ondreka",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Anne",
+    "familyName": "Oppelt",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Jens",
+    "familyName": "Osterhoff",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Alexander",
+    "familyName": "Papash",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Angelina",
+    "familyName": "Parfenova",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "m",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Kevin",
+    "familyName": "Peters",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Jochen",
+    "familyName": "Pfister",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Norbert",
+    "familyName": "Pietralla",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Tim",
+    "familyName": "Plath",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Holger",
+    "familyName": "Podlech",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Gisela",
+    "familyName": "Pöplau",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Dieter",
+    "familyName": "Prasuhn",
+    "academicTitle": "Dr.",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Alexander",
+    "familyName": "Pukhov",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-duesseldorf",
+    "affiliation_name": "Heinrich Heine Universität Düsseldorf",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Arnulf",
+    "familyName": "Quadt",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-goettingen",
+    "affiliation_name": "Georg-August-Universität Göttingen",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Günter",
+    "familyName": "Quast",
+    "academicTitle": "Professor",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Stephanie Diana",
+    "familyName": "Rädel",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Sebastian",
+    "familyName": "Raith",
+    "academicTitle": "",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Helge",
+    "familyName": "Rast",
+    "academicTitle": "",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Sebastian",
+    "familyName": "Ratschow",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ulrich",
+    "familyName": "Ratzinger",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Hartmut",
+    "familyName": "Reich-Sprenger",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Christoph",
+    "familyName": "Rethfeldt",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Daniel",
+    "familyName": "Riebesehl",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Bernard",
+    "familyName": "Riemann",
+    "academicTitle": "",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Sabine",
+    "familyName": "Riemann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Ries",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ulrich",
+    "familyName": "Römer",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Marcel",
+    "familyName": "Rosenthal",
+    "academicTitle": "",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Jörg",
+    "familyName": "Rossbach",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "Robert",
+    "familyName": "Rossmanith",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Roth",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Tino",
+    "familyName": "Rublack",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Robert",
+    "familyName": "Ruprecht",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Stephan",
+    "familyName": "Russenschuck",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Dennis",
+    "familyName": "Sauerland",
+    "academicTitle": "",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Volker R.W.",
+    "familyName": "Schaa",
+    "academicTitle": "",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Michaela",
+    "familyName": "Schaumann",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "m",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Manuel",
+    "familyName": "Schedler",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Uwe",
+    "familyName": "Scheeler",
+    "academicTitle": "",
+    "affiliation_id": "mit",
+    "affiliation_name": "Marburger Ionenstrahl-Therapiezentrum (MIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Michael",
+    "familyName": "Scheer",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Frank",
+    "familyName": "Tecker",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Felix",
+    "familyName": "Schlander",
+    "academicTitle": "Dr.",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Bernhard",
+    "familyName": "Schlitt",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Rüdiger",
+    "familyName": "Schmidt",
+    "academicTitle": "Professor",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "Bernhard",
+    "familyName": "Schmidt",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Christof",
+    "familyName": "Schneider",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Matthias",
+    "familyName": "Schnepp",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Daniel",
+    "familyName": "Schoerling",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Matthias",
+    "familyName": "Scholz",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Christian",
+    "familyName": "Schömers",
+    "academicTitle": "",
+    "affiliation_id": "hit",
+    "affiliation_name": "Heidelberger Ionenstrahl-Therapiezentrum (HIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "André",
+    "familyName": "Schöning",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-heidelberg",
+    "affiliation_name": "Ruprecht-Karls-Universität Heidelberg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Siegfried",
+    "familyName": "Schreiber",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Marcel",
+    "familyName": "Schuh",
+    "academicTitle": "",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Rolf",
+    "familyName": "Schuhmann",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-berlin",
+    "affiliation_name": "Technische Universität Berlin",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Malte",
+    "familyName": "Schwarz",
+    "academicTitle": "",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Schwarz",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Marcus",
+    "familyName": "Schwickert",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Sven",
+    "familyName": "Sievers",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Nigel",
+    "familyName": "Smale",
+    "academicTitle": "Dr.",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Stefan",
+    "familyName": "Sorge",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Gerald",
+    "familyName": "Staats",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ryan",
+    "familyName": "Stark",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Rolf",
+    "familyName": "Stassen",
+    "academicTitle": "Dr.",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Steck",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Lea",
+    "familyName": "Steder",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Johannes",
+    "familyName": "Steinmann",
+    "academicTitle": "",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Frank",
+    "familyName": "Stephan",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Hans",
+    "familyName": "Stockhorst",
+    "academicTitle": "Dr.",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ivan",
+    "familyName": "Strasik",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Ervis",
+    "familyName": "Suljoti",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Naeem Ahmad",
+    "familyName": "Tahir",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Yegor",
+    "familyName": "Tamashevich",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Roxana",
+    "familyName": "Tarkeshian",
+    "academicTitle": "Dr.",
+    "affiliation_id": "mpp",
+    "affiliation_name": "Max-Planck-Institut für Physik",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Jochen",
+    "familyName": "Teichert",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Jens-Peter",
+    "familyName": "Thiry",
+    "academicTitle": "",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Mikheil",
+    "familyName": "Titberidze",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Raimund",
+    "familyName": "Tölle",
+    "academicTitle": "Dr.",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Patryk",
+    "familyName": "Towalski",
+    "academicTitle": "",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Maximilian",
+    "familyName": "Trunk",
+    "academicTitle": "",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Joel Alain",
+    "familyName": "Tsemo Kamga",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Carina",
+    "familyName": "Ungethüm",
+    "academicTitle": "",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Hannes",
+    "familyName": "Vennekate",
+    "academicTitle": "",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Julia",
+    "familyName": "Vogt",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Christine",
+    "familyName": "Völlinger",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "m",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Markus",
+    "familyName": "Vossberg",
+    "academicTitle": "",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Paul Andreas",
+    "familyName": "Walker",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Matthias",
+    "familyName": "Wegen",
+    "academicTitle": "",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Thomas",
+    "familyName": "Weiland",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "Udo",
+    "familyName": "Weinrich",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Thomas",
+    "familyName": "Weis",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Hans",
+    "familyName": "Weise",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "Manfred",
+    "familyName": "Wendt",
+    "academicTitle": "",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Klaus",
+    "familyName": "Wille",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Oswald",
+    "familyName": "Willi",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-duesseldorf",
+    "affiliation_name": "Heinrich Heine Universität Düsseldorf",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Arik",
+    "familyName": "Willner",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Paul",
+    "familyName": "Winkler",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Danyal",
+    "familyName": "Winters",
+    "academicTitle": "Dr.",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Frank",
+    "familyName": "Wissmann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "ptb",
+    "affiliation_name": "Physikalisch-Technische Bundesanstalt",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "Kay",
+    "familyName": "Wittenburg",
+    "academicTitle": "",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Daniel",
+    "familyName": "Wollmann",
+    "academicTitle": "Dr.",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "Rong",
+    "familyName": "Xiang",
+    "academicTitle": "Dr.",
+    "affiliation_id": "hzdr",
+    "affiliation_name": "Helmholtz-Zentrum Dresden-Rossendorf",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Fatih",
+    "familyName": "Yaman",
+    "academicTitle": "Dr.",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Igor",
+    "familyName": "Zagorodnov",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Johann",
+    "familyName": "Zemella",
+    "academicTitle": "Dr.",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "Peter",
+    "familyName": "Zipf",
+    "academicTitle": "Professor",
+    "affiliation_id": "uni-kassel",
+    "affiliation_name": "Universität Kassel",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "Abdelhak",
+    "familyName": "Zoubir",
+    "academicTitle": "Professor",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hit",
+    "affiliation_name": "Heidelberger Ionenstrahl-Therapiezentrum (HIT)",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dresden",
+    "affiliation_name": "Technische Universität Dresden",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hu-berlin",
+    "affiliation_name": "Humboldt-Universität zu Berlin",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-zeuthen",
+    "affiliation_name": "DESY Zeuthen",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-berlin",
+    "affiliation_name": "Technische Universität Berlin",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "eth-zuerich",
+    "affiliation_name": "Eidgenössische Technische Hochschule Zürich",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hi-mainz",
+    "affiliation_name": "Helmholtz-Institut Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "mpik",
+    "affiliation_name": "Max-Planck-Institut für Kernphysik",
+    "gender": "f",
+    "electoralGroup": "others",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "m",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-rostock",
+    "affiliation_name": "Universität Rostock",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-mainz",
+    "affiliation_name": "Universität Mainz",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "m",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-darmstadt",
+    "affiliation_name": "Technische Universität Darmstadt",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-bonn",
+    "affiliation_name": "Universität Bonn",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "hzb",
+    "affiliation_name": "Helmholtz-Zentrum Berlin",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "leibniz",
+    "affiliation_name": "Leibniz Gemeinschaft",
+    "gender": "m",
+    "electoralGroup": "others",
+    "role": "guest"
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-hamburg",
+    "affiliation_name": "Universität Hamburg",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "tu-dortmund",
+    "affiliation_name": "Technische Universität Dortmund",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "cern",
+    "affiliation_name": "CERN",
+    "gender": "f",
+    "electoralGroup": "abroad",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "uni-frankfurt",
+    "affiliation_name": "Goethe-Universität Frankfurt am Main",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "gsi",
+    "affiliation_name": "GSI Helmholtzzentrum für Schwerionenforschung GmbH",
+    "gender": "m",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "lmu",
+    "affiliation_name": "Ludwig-Maximilians-Universität München",
+    "gender": "f",
+    "electoralGroup": "university",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "fz-juelich",
+    "affiliation_name": "Forschungszentrum Jülich",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "kit",
+    "affiliation_name": "Karlsruher Institut für Technologie",
+    "gender": "m",
+    "electoralGroup": "university",
+    "role": "kfb-member"
+  },
+  {
+    "givenName": "**********",
+    "familyName": "**********",
+    "academicTitle": "**********",
+    "affiliation_id": "desy-hamburg",
+    "affiliation_name": "DESY Hamburg",
+    "gender": "f",
+    "electoralGroup": "helmholtz",
+    "role": ""
+  }
+]

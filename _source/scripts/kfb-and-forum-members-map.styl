@@ -1,26 +1,15 @@
 
-$kfb_blue ?= #2174a8
-$kfb_gray ?= #999999
-$kfb_gray_light ?= #bbb
-
-$kfb_yellow ?= #edc500
-$kfb_red ?= #c53228
+.d3tip
+    background-color: rgba(255, 255, 255, .9)
+    font-size: $font-size--body-small
+    padding: 7px
 
 
-$color_university = $kfb_red
-$color_helmholtz = $kfb_blue
-$color_others =  $kfb_yellow
-$color_abroad =  $kfb_gray
-
- $line-height--root = 24px
-
-
-.c-kfb-forum-chart
+.page--kfb-home  .c-kfb-forum-chart
 
     background-color: rgba($kfb_gray, .05)
 
-    width: 100vw
-    height: 100vh
+    height: 18 * $line-height--root
 
     line.affiliation
         stroke: $kfb_gray
@@ -128,3 +117,44 @@ $color_abroad =  $kfb_gray
     .node--others
         opacity: 1
 
+.page--kfb-home .content
+
+
+
+    li.electoral-group-universities, li.electoral-group-abroad, li.electoral-group-others, li.electoral-group-helmholtz
+        border-bottom: dashed 1px $kfb_gray_light
+        cursor: pointer
+        list-style: none
+        position: relative
+        text-indent: $line-height--root
+
+        &:hover
+            background-color: rgba($kfb_gray_light, .2)
+
+        &:before
+            content: " "
+            display: inline-block
+            height: $line-height--root * .5
+            left: $line-height--root * .25
+            margin-right: 1em
+            margin-top: .35em
+            position: absolute
+            width: $line-height--root * .5
+
+
+
+    li.electoral-group-universities:before
+        background-color: rgba($color_university, 1)
+        border: darken($color_university, 50) 1px sol
+
+    li.electoral-group-abroad:before
+        background-color: rgba($color_abroad, 1)
+        border: darken($color_abroad, 50) 1px sol
+
+    li.electoral-group-others:before
+        background-color: rgba($color_others, 1)
+        border: darken($color_others, 50) 1px sol
+
+    li.electoral-group-helmholtz:before
+        background-color: rgba($color_helmholtz, 1)
+        border: darken($color_helmholtz, 50) 1px sol
