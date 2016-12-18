@@ -13,18 +13,18 @@ module.exports = function (grunt, options) {
         },
         put_dev: {
             options: {
-                bucket: 'www.4pi.eu',
+                bucket: 'pagespeed-benchmark.4pi.eu',
                 differential: true, // Only uploads the files that have changed
             },
             files: [
 
                 {
                     expand: true,
-                    cwd: '<%= config.paths.build.dev %>',
+                    cwd: '<%= config.paths.build.dev_htdocs %>',
                     src: ['**'],
                     dest: '',
                     params: {
-                        CacheControl: 'max-age=3600'
+                        CacheControl: 'private'
                     }
                 }
             ]
@@ -32,7 +32,7 @@ module.exports = function (grunt, options) {
 
         clean_dev: {
             options: {
-                bucket: 'www.4pi.eu',
+                bucket: 'pagespeed-benchmark.4pi.eu',
                 debug: false // if true: doesn't actually delete but shows log
             },
             files: [{

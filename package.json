@@ -1,6 +1,6 @@
 {
   "name": "pagespeed-benchmark",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Compares the impact of best practices for boosting page speed",
   "main": "index.js",
   "repository": {
@@ -11,9 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "casperjs": "^1.1.3",
+    "d3tip": "^0.5.0",
     "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.9.4",
     "bootstrap": "^3.3.7",
     "bootstrap-styl": "^5.0.8",
     "d3": "^4.4.0",
@@ -36,14 +40,20 @@
     "grunt-grunticon": "^2.3.1",
     "grunt-html": "^8.0.2",
     "grunt-stylint": "^0.1.2",
+    "grunt-webpack": "2.0.0-beta.5",
     "grunt-zip": "^0.17.1",
     "jquery": "^3.1.1",
     "js-combinatorics": "^0.5.2",
+    "json-loader": "^0.5.4",
     "load-grunt-configs": "^1.0.0",
     "load-grunt-tasks": "^3.4.0",
     "merge": "^1.2.0",
     "mkdirp": "^0.5.1",
     "object.values": "^1.0.4",
-    "time-grunt": "^1.4.0"
+    "time-grunt": "^1.4.0",
+    "topojson": "^2.2.0",
+    "webpack": "beta",
+    "webpack-dev-server": "beta",
+    "webpack-stats-plugin": "^0.1.4"
   }
 }

@@ -29,9 +29,9 @@ module.exports = function (grunt) {
 
     grunt.initConfig(configs);
 
-    grunt.registerTask('build', ['clean', 'copy', 'createPages', 'compress']);
+    grunt.registerTask('build', ['clean', 'webpack', 'stylus', 'copy', 'createPages']);
 
-    // grunt.registerTask('default', ['build']);
+    grunt.registerTask('default', ['build']);
 
 
     grunt.registerTask('createPages', 'A sample task that logs stuff.', function () {

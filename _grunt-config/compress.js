@@ -11,9 +11,9 @@ module.exports = function(grunt, options) {
         },
         files: {
             expand: true,
-            cwd: '_build/dev/_shared/',
+            cwd: '<%= config.paths.build.dev_htdocs_version %>/_shared/',
             src: ['**.*'],
-            dest: '_build/dev/_shared_compressed/',
+            dest: '<%= config.paths.build.dev_htdocs_version %>/_shared_compressed/',
             rename: function(dest, matchedSrcPath, options) {
                 return path.join(dest, matchedSrcPath) + ".gz";
             }

@@ -2,7 +2,9 @@
     "paths": {
         "build": {
             "grunticon": "_build/grunticon",
-            "dev": "_build/dev",
+            "dev": "_build/<%= pkg.version %>",
+            "dev_htdocs": "_build/<%= pkg.version %>/htdocs/",
+            "dev_htdocs_version": "_build/<%= pkg.version %>/htdocs/<%= pkg.version %>",
             "report": "_build/report"
         },
         "source": "_source"

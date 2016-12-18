@@ -1,160 +1,146 @@
-// "use strict";
+"use strict";
 
-// var webpack = require("webpack");
-// var StatsWriterPlugin = require("webpack-stats-plugin").StatsWriterPlugin;
+var webpack = require("webpack");
+var StatsWriterPlugin = require("webpack-stats-plugin").StatsWriterPlugin;
 
-// module.exports = function (grunt, options) {
+module.exports = function (grunt, options) {
 
-//     let dev = {
-//         // configuration
-//         entry: {
+    let dev = {
+        // configuration
+        entry: {
 
-//             "kfb": [
-//                 "./_source/site/kfb.js"
-//             ],
+            "script": [
+                "./_source/scripts/script.js"
+            ],
+        },
+        output: {
 
-//             "accelerators": [
-//                 "./_source/site/accelerators/accelerators.js"
-//             ]
-//         },
-//         output: {
+            
+            path: "./_build/0.1.0/htdocs/0.1.0/_shared/",
+            filename: "script.js"
 
-//             library: "AcceleratorsLibrary",
-//             path: "./_build/dev/_shared/scripts/",
-//             filename: "[name]--webpacked.js",
-//             publicPath: '/_build/dev'
-
-//         },
-//         externals: {
-//             // "d3": "d3",
-//             // "topojson": "topojson",
-//             // "d3tip": "d3tip",  
-//         },
-//         resolve: {
+        },
+        externals: {
+            "d3": "d3",
+            "topojson": "topojson",
+            "jQuery": "jQuery"
+        },
+        resolve: {
 
 
 
-//             extensions: [".js"],
-//             // extensions that are used
+            extensions: [".js"],
+            // extensions that are used
 
-//         },
+        },
 
-//         module: {
-//             rules: [
+        module: {
+            rules: [
 
-//                 {
-//                     test: /\.js$/,
-//                     exclude: /(node_modules|bower_components)/,
-//                     loader: 'babel-loader'
-//                         // ,
-//                         // query: {
-//                         //     presets: ['es2015']
-//                         // }
-//                 },
+                {
+                    test: /\.js$/,
+                    exclude: /(node_modules|bower_components)/,
+                    loader: 'babel-loader'
+                },
 
-//                 {
-//                     enforce: "pre",
-//                     test: /\.json?$/,
-//                     loader: 'json-loader',
-//                 }
-//             ]
-//         },
-//         plugins: [
+                {
+                    enforce: "pre",
+                    test: /\.json?$/,
+                    loader: 'json-loader',
+                }
+            ]
+        },
+        plugins: [
 
-//             new StatsWriterPlugin({
-//                 filename: "webpack-stats.json" // Default
-//             })
-//         ],
+            new StatsWriterPlugin({
+                filename: "webpack-stats.json" // Default
+            })
+        ],
 
-//         devtool: 'eval',
+        // devtool: 'eval',
 
-//         devServer: {
-//             inline: true,
-//             hot: true
-//         },
-//         stats: {
-//             colors: true,
-//             modules: false,
-//             reasons: true
-//         },
-//         watch: false,
-//         target: "web"
-//     };
+        devServer: {
+            inline: true,
+            hot: true
+        },
+        stats: {
+            colors: true,
+            modules: false,
+            reasons: true
+        },
+        watch: false,
+        target: "web"
+    };
 
-//     let prod = {
-//         // configuration
-//         entry: {
+    let prod = {
+        // configuration
+        entry: {
 
-//             "kfb": [
-//                 "./_source/site/kfb.js"
-//             ],
+            "script": [
+                "./_source/scripts/script.js"
+            ],
 
-//             "accelerators": [
-//                 "./_source/site/accelerators/accelerators.js"
-//             ]
-//         },
-//         output: {
-//             library: "AcceleratorsLibrary",
-//             path: "./_build/prod/_shared/scripts/",
-//             filename: "[name]--webpacked.js",
-//             publicPath: '/_build/prod'
+        },
+        output: {
 
-//         },
-//         externals: {
-//             // "d3": "d3"
-//         },
-//         resolve: {
-//             // directories where to look for modules
+            
+            path: "./_build/0.1.0/htdocs/0.1.0/_shared/",
+            filename: "script.jslibraries-shaken.js"
 
-//             extensions: [".js"],
-//             // extensions that are used
+        },
+        externals: {
+            // "d3": "d3"
+        },
+        resolve: {
+            // directories where to look for modules
 
-//         },
+            extensions: [".js"],
+            // extensions that are used
 
-//         module: {
-//             rules: [
+        },
 
-//                 {
-//                     test: /\.js$/,
-//                     exclude: /(node_modules|bower_components)/,
-//                     loader: 'babel-loader',
-//                     query: {
-//                         presets: ['es2015']
-//                     }
-//                 },
+        module: {
+            rules: [
 
-//                 {
-//                     enforce: "pre",
-//                     test: /\.json?$/,
-//                     loader: 'json-loader',
-//                 }
-//             ]
-//         },
-//         plugins: [
-//             new webpack.optimize.UglifyJsPlugin({
-//                 compress: {
-//                     warnings: true
-//                 }
-//             }),
-//         ],
+                {
+                    test: /\.js$/,
+                    exclude: /(node_modules|bower_components)/,
+                    loader: 'babel-loader',
+                    
+                },
 
-//         devServer: {
-//             inline: true,
-//             hot: true
-//         },
-//         stats: {
-//             colors: true,
-//             modules: false,
-//             reasons: true
-//         },
-//         watch: false,
-//         target: "web"
-//     };
+                {
+                    enforce: "pre",
+                    test: /\.json?$/,
+                    loader: 'json-loader',
+                }
+            ]
+        },
+        plugins: [
+            new webpack.optimize.UglifyJsPlugin({
+                compress: {
+                    warnings: true
+                }
+            }),
+        ],
+
+        devServer: {
+            inline: true,
+            hot: true
+        },
+        stats: {
+            colors: true,
+            modules: false,
+            reasons: true
+        },
+        watch: false,
+        target: "web"
+    };
 
 
-//     return {
+    return {
 
-//         dev: dev,
-//         prod: prod
-//     }
-// }
+        dev: dev,
+        prod: prod
+    }
+}
