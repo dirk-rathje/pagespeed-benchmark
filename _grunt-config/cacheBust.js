@@ -3,18 +3,20 @@
 module.exports = function (grunt, options) {
 
     return {
-        prod: {
+
+        "bestpractice": {
             options: {
-                baseDir: "<%= config.paths.build.prod %>",
+                baseDir: "_build/htdocs/",
                 assets: ['_shared/**'],
-                outputDir: '_shared_hashed/',
+                outputDir: '_shared_fingerprinted/',
                 clearOutputDir: true
             },
             files: [{
                 expand: true,
-                cwd: "<%= config.paths.build.prod %>",
-                src: ['**/*.html', '**/*.js', '**/*.css']
+                cwd: "_build/htdocs/",
+                src: ['best-practices/final.html']
             }]
         }
+
     }
 }

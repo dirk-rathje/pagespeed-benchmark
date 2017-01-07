@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 
     grunt.initConfig(configs);
 
-    grunt.registerTask('build', ['clean', 'webpack', 'stylus', 'copy', 'createSample']);
+    grunt.registerTask('build', ['clean', 'webpack', 'grunticon', 'stylus', 'copy', 'createSample']);
     grunt.registerTask('measure', ['sitespeedio:bestPractices']);
 
     grunt.registerTask('default', ['build', 'measure']);

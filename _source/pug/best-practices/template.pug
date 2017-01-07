@@ -1,0 +1,86 @@
+include ../lorem.pug
+
+block vars
+    - var data_jslibraries = "jslibraries-external"
+    - var data_bootstrap = "bootstrap-external"
+    - var data_assetsFolder = "../_uncompressed/"
+    - var data_minifyInfix = "" // .min
+    - var data_icons_external = ".icons-external" // .min
+    - var data_css = "" // .min
+    - var data_image_compression = "50" // 50 | 20
+
+doctype html
+html(lang="de")
+
+    head
+        meta(charset="utf-8")
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        
+        
+        if (data_bootstrap === "bootstrap-external")
+            link(href=data_assetsFolder + "bootstrap" + data_minifyInfix + ".css", rel="stylesheet")
+            link(href=data_assetsFolder + "styles" +data_icons_external + data_minifyInfix + ".css", rel="stylesheet")
+
+        if (data_bootstrap === "bootstrap-bundled")
+            link(href=data_assetsFolder + "styles.bootstrap" + data_minifyInfix + ".css", rel="stylesheet")
+
+        if (data_bootstrap === "bootstrap-bundled-shaken")
+            link(href=data_assetsFolder + "styles.bootstrap-shaken" + data_minifyInfix + ".css", rel="stylesheet")
+
+        if (data_jslibraries === "jslibraries-external")
+            script(src=data_assetsFolder + "jquery" + data_minifyInfix + ".js")
+            script(src=data_assetsFolder + "d3" + data_minifyInfix + ".js")
+            script(src=data_assetsFolder + "script" + ".js")
+
+        if (data_css)
+            style 
+                != data_css
+
+
+
+        block title
+            title PageSpeed benchmark
+
+
+
+    body
+        h1 Menu with icons
+        ul.menu
+            li.svg__menu-1 &nbsp;
+            li.svg__menu-2 &nbsp;
+            li.svg__menu-3 &nbsp;
+            li.svg__menu-4 &nbsp;
+            li.svg__menu-5 &nbsp;
+            li.svg__menu-6 &nbsp;
+            li.svg__menu-7 &nbsp;
+            li.svg__menu-8 &nbsp;
+            li.svg__menu-9 &nbsp;
+            li.svg__menu-10  &nbsp;
+
+        h1 Hero image caroussel
+        each i in [0,1,2,3,4]
+            img(src="../_images/0" + i + "/pexels-photo-121734-600x400-" + data_image_compression + ".jpg" class="img600x400")
+
+        h1 Teasers
+        each i in [0,1,2,3,4,5,6,7,8]
+            .teaser
+                h3
+                    +lipsum(1, 'words')
+                p 
+                    +lipsum(1, 'paragraphs')
+                img(src="../_images/0" + i + "/pexels-photo-121734-300x200-" + data_image_compression + ".jpg" class="img300x200")
+        
+        h1 News items
+        each i in [0,1,2,3,4,5,6,7,8]
+            .news-item
+                h3 
+                    +lipsum(1, 'words')
+                p 
+                    +lipsum(1, 'paragraphs')
+                img(src="../_images/0" + i + "/pexels-photo-121734-200x133-" + data_image_compression + ".jpg" class="img200x133")
+      
+
+        if (data_jslibraries === "jslibraries-shaken")
+            script(src=data_assetsFolder + "script.jslibraries-shaken" + ".js" async)
+

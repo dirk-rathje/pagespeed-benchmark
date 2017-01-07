@@ -9,6 +9,26 @@ module.exports = function (grunt, options) {
     // };
 
     return {
+        "uncompressed": {
+            "options": {
+                "compress": false,
+                "use": [
+                    null
+                ],
+                "paths": [
+                    "node_modules/bootstrap-styl"
+                ]
+            },
+            "files": {
+
+                "<%= config.paths.build.dev_htdocs %>/_uncompressed/fonts.css": "<%= config.paths.source %>/styles/fonts.styl",
+
+                "<%= config.paths.build.dev_htdocs %>/_uncompressed/styles.css": "<%= config.paths.source %>/styles/styles.styl",
+
+                "<%= config.paths.build.dev_htdocs %>/_uncompressed/styles.icons-external.css": "<%= config.paths.source %>/styles/styles.icons-external.styl",
+
+            }
+        },
         "dev": {
             "options": {
                 "compress": false,
@@ -23,6 +43,8 @@ module.exports = function (grunt, options) {
                 "<%= config.paths.build.dev_htdocs %>/_shared/fonts.css": "<%= config.paths.source %>/styles/fonts.styl",
 
                 "<%= config.paths.build.dev_htdocs %>/_shared/styles.css": "<%= config.paths.source %>/styles/styles.styl",
+
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.icons-external.css": "<%= config.paths.source %>/styles/styles.icons-external.styl",
 
                 "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap.css": "<%= config.paths.source %>/styles/styles.bootstrap.styl",
 
@@ -44,9 +66,9 @@ module.exports = function (grunt, options) {
 
                 "<%= config.paths.build.dev_htdocs %>/_shared/styles.min.css": "<%= config.paths.source %>/styles/styles.styl",
 
-                "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap.min.css": 
-                
-                "<%= config.paths.source %>/styles/styles.bootstrap.styl",
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.icons-external.min.css": "<%= config.paths.source %>/styles/styles.icons-external.styl",
+
+                "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap.min.css": "<%= config.paths.source %>/styles/styles.bootstrap.styl",
 
                 "<%= config.paths.build.dev_htdocs %>/_shared/styles.bootstrap-shaken.min.css": "<%= config.paths.source %>/styles/styles.bootstrap-shaken.styl"
             }

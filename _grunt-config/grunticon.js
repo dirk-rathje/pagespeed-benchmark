@@ -33,8 +33,8 @@ module.exports = function(grunt, options) {
             // prefix for CSS classnames
             cssprefix: ".svg__",
 
-            defaultWidth: "26px",
-            defaultHeight: "26px",
+            defaultWidth: "30px",
+            defaultHeight: "30px",
 
             // define vars that can be used in filenames if desirable, like foo.colors-primary-secondary.svg
             colors: {

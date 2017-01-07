@@ -21,7 +21,72 @@ module.exports = function (grunt, options) {
                     iterations: 3,
                 },
                 urlsMetaData: [],
-                outputFolder: '_build/reports/'
+                outputFolder: '_build/reports/sitespeedio/pagespeed-benchmark/'
+            }
+        },
+        "single-https-roundtrip": {
+            options: {
+                urls: ['https://www.dirk-rathje.de/lab/pagespeed-benchmark/tcp-slow-start/index-0-0.html'],
+                browsertime: {
+                    delay: 2000,
+                    browser: 'chrome',
+                    // "connectivity": 'cable',
+                    iterations: 1,
+                },
+                urlsMetaData: [],
+                outputFolder: '_build/reports/sitespeedio_single-https-roundtrip'
+            }
+        },
+        "single-http-roundtrip": {
+            options: {
+                urls: ['http://www.dirk-rathje.de/lab/pagespeed-benchmark/tcp-slow-start/index-0-0.html'],
+                browsertime: {
+                    delay: 2000,
+                    browser: 'chrome',
+                    // "connectivity": 'cable',
+                    iterations: 1,
+                },
+                urlsMetaData: [],
+                outputFolder: '_build/reports/sitespeedio_single-http-roundtrip'
+            }
+        },
+        "desy": {
+            options: {
+                urls: ['https://www.desy.de'],
+                browsertime: {
+                    delay: 2000,
+                    browser: 'chrome',
+                    // "connectivity": 'cable',
+                    iterations: 3,
+                },
+                urlsMetaData: [],
+                outputFolder: '_build/reports/sitespeedio_desy'
+            }
+        },
+        // "beschleunigerphysik20161220": {
+        //     options: {
+        //         urls: ['https://www.beschleunigerphysik.de/'],
+        //         browsertime: {
+        //             delay: 2000,
+        //             browser: 'chrome',
+        //             // "connectivity": 'cable',
+        //             iterations: 5,
+        //         },
+        //         urlsMetaData: [],
+        //         outputFolder: '_build/reports/sitespeedio_beschleunigerphysik20161220'
+        //     }
+        // },
+        "beschleunigerphysik20161221": {
+            options: {
+                urls: ['https://www.beschleunigerphysik.de/'],
+                browsertime: {
+                    delay: 2000,
+                    browser: 'chrome',
+                    // "connectivity": 'cable',
+                    iterations: 5,
+                },
+                urlsMetaData: [],
+                outputFolder: '_build/reports/sitespeedio_beschleunigerphysik20161221'
             }
         }
     }

@@ -10,9 +10,12 @@
   "author": "Dirk Rathje <post@dirk-rathje.de>",
   "license": "MIT",
   "dependencies": {
+    "babel-loader": "^6.2.9",
     "casperjs": "^1.1.3",
     "d3tip": "^0.5.0",
-    "pug": "^2.0.0-beta6"
+    "json2csv": "^3.7.3",
+    "pug": "^2.0.0-beta6",
+    "simple-statistics": "^2.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
@@ -24,7 +27,7 @@
     "grunt": "^1.0.1",
     "grunt-aws-s3": "^0.14.5",
     "grunt-bumpup": "^0.6.3",
-    "grunt-cache-bust": "^1.4.1",
+    "grunt-cache-bust": "^1.5.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-compress": "^1.3.0",
     "grunt-contrib-connect": "^1.0.2",
@@ -39,7 +42,7 @@
     "grunt-favicons": "^0.8.0",
     "grunt-grunticon": "^2.3.1",
     "grunt-html": "^8.0.2",
-    "grunt-sitespeedio": "^1.1.0",
+    "grunt-sitespeedio": "^1.2.0",
     "grunt-ssh": "^0.12.9",
     "grunt-stylint": "^0.1.2",
     "grunt-webpack": "2.0.0-beta.5",
@@ -52,6 +55,7 @@
     "merge": "^1.2.0",
     "mkdirp": "^0.5.1",
     "object.values": "^1.0.4",
+    "reductio": "^0.6.3",
     "time-grunt": "^1.4.0",
     "topojson": "^2.2.0",
     "webpack": "beta",

@@ -11,7 +11,7 @@ module.exports = function (grunt, options) {
                 CacheControl: 'max-age=60'
             }
         },
-        put_dev: {
+        put_http2: {
             options: {
                 bucket: 'pagespeed-benchmark.4pi.eu',
                 differential: true, // Only uploads the files that have changed
@@ -21,24 +21,71 @@ module.exports = function (grunt, options) {
                 {
                     expand: true,
                     cwd: '<%= config.paths.build.dev_htdocs %>',
-                    src: ['**'],
+                    src: ['**/*.html'],
                     dest: '',
                     params: {
-                        CacheControl: 'private'
+                        CacheControl: 'max-age=3600'
+                    }
+                },
+                {
+                    expand: true,
+                    cwd: '<%= config.paths.build.dev_htdocs %>',
+                    src: ['**', '!**/*.html'],
+                    dest: '',
+                    params: {
+                        CacheControl: 'max-age=31536000'
                     }
                 }
             ]
         },
+        put_http1: {
+            options: {
+                bucket: 'pagespeed-benchmark-http-1.4pi.eu',
+                differential: true, // Only uploads the files that have changed
+            },
+            files: [
 
-        clean_dev: {
+                {
+                    expand: true,
+                    cwd: '<%= config.paths.build.dev_htdocs %>',
+                    src: ['**/*.html'],
+                    dest: '',
+                    params: {
+                        CacheControl: 'max-age=3600'
+                    }
+                },
+                {
+                    expand: true,
+                    cwd: '<%= config.paths.build.dev_htdocs %>',
+                    src: ['**', '!**/*.html'],
+                    dest: '',
+                    params: {
+                        CacheControl: 'max-age=31536000'
+                    }
+                }
+            ]
+        },
+        clean_http2: {
             options: {
                 bucket: 'pagespeed-benchmark.4pi.eu',
                 debug: false // if true: doesn't actually delete but shows log
             },
             files: [{
-                    dest: '/',
-                    action: 'delete'
-                }
+                dest: '/',
+                action: 'delete'
+            }
+
+            ]
+        },
+        clean_http1: {
+            options: {
+                bucket: 'pagespeed-benchmark-http-1.4pi.eu',
+                debug: false // if true: doesn't actually delete but shows log
+            },
+            files: [{
+                dest: '/',
+                action: 'delete'
+            }
 
             ]
         }
