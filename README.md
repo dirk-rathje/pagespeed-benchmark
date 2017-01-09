@@ -126,6 +126,12 @@ This article does NOT tackle the challenge of improving serverside render times,
 
 ## Starting Point
 
+The starting point of our jounery through pagespeed optimization country is webpage containing 10 graphical icons, a caruousell with 5 big photographs, a list of 10 news items with a small teaser photograph each, and a list with ten page teaser with a medium sized photograph each.
+
+This set-up resembles the homepage of many websites.
+
+CSS-wise, the page used bootstrap and some own styles. Javascript-wise, the page includes JQuery and D3.js.
+
 ## Reducing file sizes
 
 ### Compressing
