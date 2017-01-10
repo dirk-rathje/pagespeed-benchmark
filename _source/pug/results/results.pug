@@ -1,0 +1,44 @@
+block vars
+    - var data_jslibraries = "jslibraries-shaken"
+    - var data_bootstrap = "bootstrap-bundled-shaken"
+    - var data_assetsFolder = "../_shared/"
+    - var data_minifyInfix = ".min" // .min
+    - var data_image_compression = "30" // 50 | 20
+    - var data_css = ".img200x133{width:200px;height:133px;}.img300x200{width:300px;height:200px;}.img600x400{width:600px;height:400px;}" // .min
+
+
+doctype html
+html(lang="de")
+
+    head
+        meta(charset="utf-8")
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        
+
+        link(href=data_assetsFolder + "styles.bootstrap-shaken" + data_minifyInfix + ".css", rel="stylesheet")
+
+        script(src=data_assetsFolder + "jquery" + data_minifyInfix + ".js")
+        script(src=data_assetsFolder + "d3" + data_minifyInfix + ".js")
+        
+
+        block title
+            title PageSpeed benchmark results
+
+
+    body.results
+        .container
+            .row
+
+
+                .col-xs-12
+                    h1 results
+
+                    table.results.table-striped.table
+            
+            
+            
+                    
+            script(src="/_shared/script.js" async)
+            
+

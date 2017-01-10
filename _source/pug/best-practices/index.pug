@@ -12,21 +12,8 @@ html(lang="en")
             title PageSpeed benchmark
 
 
-
     body
         ul
-            li
-                a(href="0-starting-point.html") 0-starting-point.html
-            li
-                a(href="1-gzip.html") 1-gzip.html
-
-            li
-                a(href="2-image-optimization.html") 2-image-optimization.html
-            li
-                a(href="3-asset-minification.html") 3-asset-minification.html
-            li
-                a(href="4-icon-inlining.html") 4-icon-inlining.html
-            li
-                a(href="5-asset-bundling.html") 5-asset-bundling.html
-            li
-                a(href="final.html") final.html
+            each best_practice in data.best_practices
+                li
+                    a(href=best_practice)!= best_practice
