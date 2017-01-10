@@ -1,7 +1,10 @@
 {
     "paths": {
         "build": {
+            "browsertime": "_build/reports/browsertime",
             "grunticon": "_build/grunticon",
+            "imagemin": "_build/imagemin",
+            "images": "_build/images",
             "dev": "_build/",
             "dev_htdocs": "_build/htdocs",
             "report": "_build/report"

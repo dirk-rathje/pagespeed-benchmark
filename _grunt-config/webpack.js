@@ -5,7 +5,7 @@ var StatsWriterPlugin = require("webpack-stats-plugin").StatsWriterPlugin;
 
 module.exports = function (grunt, options) {
 
-    let dev = {
+    let simple = {
         // configuration
         entry: {
 
@@ -15,7 +15,7 @@ module.exports = function (grunt, options) {
         },
         output: {
 
-            
+
             path: "./_build/htdocs/_shared/",
             filename: "script.js"
 
@@ -72,7 +72,7 @@ module.exports = function (grunt, options) {
         target: "web"
     };
 
-    let uncompressed = {
+    let simple_uncompressed = {
         // configuration
         entry: {
 
@@ -82,7 +82,7 @@ module.exports = function (grunt, options) {
         },
         output: {
 
-            
+
             path: "./_build/htdocs/_uncompressed/",
             filename: "script.js"
 
@@ -139,7 +139,7 @@ module.exports = function (grunt, options) {
         target: "web"
     };
 
-    let prod = {
+    let bundled = {
         // configuration
         entry: {
 
@@ -150,9 +150,9 @@ module.exports = function (grunt, options) {
         },
         output: {
 
-            
+
             path: "./_build/htdocs/_shared/",
-            filename: "script.jslibraries-shaken.js"
+            filename: "script.jslibraries-bundled.js"
 
         },
         externals: {
@@ -173,7 +173,72 @@ module.exports = function (grunt, options) {
                     test: /\.js$/,
                     exclude: /(node_modules|bower_components)/,
                     loader: 'babel-loader',
-                    
+
+                },
+
+                {
+                    enforce: "pre",
+                    test: /\.json?$/,
+                    loader: 'json-loader',
+                }
+            ]
+        },
+        plugins: [
+            new webpack.optimize.UglifyJsPlugin({
+                compress: {
+                    warnings: true
+                }
+            }),
+        ],
+
+        devServer: {
+            inline: true,
+            hot: true
+        },
+        stats: {
+            colors: true,
+            modules: false,
+            reasons: true
+        },
+        watch: false,
+        target: "web"
+    };
+
+    let shaken = {
+        // configuration
+        entry: {
+
+            "script": [
+                "./_source/scripts/script-shaken.js"
+            ],
+
+        },
+        output: {
+
+
+            path: "./_build/htdocs/_shared/",
+            filename: "script.jslibraries-shaken.js"
+
+        },
+        externals: {
+        
+        },
+        resolve: {
+            // directories where to look for modules
+
+            extensions: [".js"],
+            // extensions that are used
+
+        },
+
+        module: {
+            rules: [
+
+                {
+                    test: /\.js$/,
+                    exclude: /(node_modules|bower_components)/,
+                    loader: 'babel-loader',
+
                 },
 
                 {
@@ -207,8 +272,9 @@ module.exports = function (grunt, options) {
 
     return {
 
-        dev: dev,
-           uncompressed: uncompressed,
-        prod: prod
+        simple,
+        simple_uncompressed,
+        bundled,
+        shaken,
     }
 }

@@ -7,14 +7,14 @@ module.exports = function (grunt, options) {
         "bestpractice": {
             options: {
                 baseDir: "_build/htdocs/",
-                assets: ['_shared/**'],
+                assets: ['_shared/**', '_images/**'],
                 outputDir: '_shared_fingerprinted/',
                 clearOutputDir: true
             },
             files: [{
                 expand: true,
                 cwd: "_build/htdocs/",
-                src: ['best-practices/final.html']
+                src: ['best-practices/*.html']
             }]
         }
 

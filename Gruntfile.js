@@ -29,19 +29,19 @@ module.exports = function (grunt) {
 
     grunt.initConfig(configs);
 
-    grunt.registerTask('build', ['clean', 'webpack', 'grunticon', 'stylus', 'copy', 'createSample']);
-    grunt.registerTask('measure', ['sitespeedio:bestPractices']);
+    grunt.registerTask('build', ['clean:htdocs', 'webpack', 'pug', 'imagemin', 'grunticon', 'stylus', 'copy', 'critical']);
+    grunt.registerTask('measure', []);
 
     grunt.registerTask('default', ['build', 'measure']);
 
 
-    grunt.registerTask('createSample', 'A sample task that logs stuff.', function () {
+    // grunt.registerTask('createSample', 'A sample task that logs stuff.', function () {
 
-        const SampleCreator = require("./_source/SampleCreator.js")
+    //     const SampleCreator = require("./_source/SampleCreator.js")
 
-        let sampleCreator = new SampleCreator();
-        sampleCreator.createBestPracticeSamples()
-        sampleCreator.createTCPSlowStartSamples()
-    });
+    //     let sampleCreator = new SampleCreator();
+    //     sampleCreator.createBestPracticeSamples()
+    //     sampleCreator.createTCPSlowStartSamples()
+    // });
 
 };

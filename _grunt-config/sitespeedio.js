@@ -24,6 +24,34 @@ module.exports = function (grunt, options) {
                 outputFolder: '_build/reports/sitespeedio/pagespeed-benchmark/'
             }
         },
+   "0-starting-point.html": {
+            options: {
+                urls: ['https://pagespeed-benchmark.4pi.eu/best-practices/0-starting-point.html'],
+                browsertime: {
+                    delay: 2000,
+                    browser: 'chrome',
+                    // "connectivity": 'cable',
+                    iterations: 1,
+                },
+                urlsMetaData: [],
+                outputFolder: '_build/reports/sitespeedio_best-practices/best-practices/0-starting-point'
+            }
+        },
+
+        "6-final.html": {
+            options: {
+                urls: ['https://pagespeed-benchmark.4pi.eu/best-practices/6-final.html'],
+                browsertime: {
+                    delay: 2000,
+                    browser: 'chrome',
+                    // "connectivity": 'cable',
+                    iterations: 1,
+                },
+                urlsMetaData: [],
+                outputFolder: '_build/reports/sitespeedio_best-practices/best-practices/6-final.html'
+            }
+        },
+
         "single-https-roundtrip": {
             options: {
                 urls: ['https://www.dirk-rathje.de/lab/pagespeed-benchmark/tcp-slow-start/index-0-0.html'],
