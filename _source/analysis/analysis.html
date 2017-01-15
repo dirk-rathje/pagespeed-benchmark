@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://dc-js.github.io/dc.js/css/dc.css" />
+    <script src="https://dc-js.github.io/dc.js/js/d3.js"></script>
+    <script src="https://dc-js.github.io/dc.js/js/crossfilter.js"></script>
+    <script src="https://dc-js.github.io/dc.js/js/dc.js"></script>
+    <script src="https://rawgit.com/crossfilter/reductio/master/reductio.js"></script>
+    <script src="https://npmcdn.com/universe@latest/universe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reductio/0.6.3/reductio.min.js"></script>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="settings"></div>
+    <div id="boxPlot-cable"></div>
+    <div id="boxPlot-3g"></div>
+    <div id="boxPlot-native"></div>
+    <script>
+        // var settings = dc.barChart('#settings');
+
+        // var boxPlotCable = dc.boxPlot("#boxPlot-cable");
+        var boxPlot3g = dc.boxPlot("#boxPlot-3g");
+        // var boxPlotNative = dc.boxPlot("#boxPlot-native");
+        d3.csv("results.csv", function (error, measurements) {
+
+            measurements.forEach(function (x) {
+                x.speedIndex = +x.speedIndex;
+            });
+
+            var nested = d3.nest().key(function(d){return d.connection}).map(measurements);
+            console.log(nested)
+
+            var ndx = crossfilter(nested["cable"]);
+
+            var settingDimension = ndx.dimension(function (d) {
+                return [d.name, d.connection, d.http_version];
+            });
+
+
+            var settingCountGoup = settingDimension.group(); //.reduceSum(function (d) { return d.cnt; });
+
+
+
+            var speedIndexArrayGroup = settingDimension.group().reduce(
+                function (p, v) {
+                    p.push(v.speedIndex);
+                    return p;
+                },
+                function (p, v) {
+                    p.splice(p.indexOf(v.speedIndex), 1);
+                    return p;
+                },
+                function () {
+                    return [];
+                }
+            );
+
+
+            // settings
+            //     .width(1200)
+            //     .height(380)
+            //     .x(d3.scale.ordinal())
+            //     .xUnits(dc.units.ordinal)
+            //     .brushOn(true)
+            //     .xAxisLabel('Fruit')
+            //     .yAxisLabel('Quantity Sold')
+            //     .dimension(settingDimension)
+            //     .barPadding(0.1)
+            //     .outerPadding(0.05)
+            //     .group(settingCountGoup);
+
+            
+
+            // var settingGroup = settingDimension.group();
+
+            // var reducer = reductio()
+            //     .count(true)
+            //     .avg(true)
+            //     .std(function (d) { return d.speedIndex; })
+
+
+            // reducer(settingGroup);
+
+            // console.log(settingGroup.top(Infinity))
+
+
+
+            boxPlot3g
+                .width(1800)
+                .height(400)
+                .brushOn(false)
+                .x(d3.scale.ordinal())
+                .y(d3.scale.linear().domain([0, 10000]))
+                .yAxisLabel("SpeedIndex")
+                .dimension(settingDimension)
+                .group(speedIndexArrayGroup)
+            // .on('renderlet', function(chart) {
+            //     chart.selectAll('rect').on("click", function(d) {
+            //         console.log("click!", d);
+            //     });
+            // });
+            dc.renderAll();
+        });
+    </script>
+</body>

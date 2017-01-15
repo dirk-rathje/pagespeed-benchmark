@@ -7,6 +7,11 @@ const D3 = require('d3');
 const SS = require("simple-statistics")
 
 
+const RE = new RegExp(/_results\/measurements\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/browsertime\.json/);
+
+
+
+
 let best_practices = GLOB.sync('_source/pug/best-practices/**.pug')
     .filter(f => { return (f.indexOf("template.pug") === -1 && f.indexOf("index.pug") === -1) })
     .map(f => f.replace(/\.pug/, "").replace("_source/pug/best-practices/", ""))
@@ -30,26 +35,26 @@ best_practices.forEach(bp => {
 result = getBrowsertimeData(result)
 getGooglePagespeedAnanlysis(result)
 
+
 function getBrowsertimeData(parentResult) {
 
     let result = JSON.parse(JSON.stringify(parentResult))
 
-    const browsertimeFiles = GLOB.sync("_build/reports/browsertime/measurements/**/browsertime.json")
+    const browsertimeFiles = GLOB.sync("_results/measurements/**/browsertime.json")
     let measurements = []
 
     browsertimeFiles.forEach(f => {
 
-        let connection = "";
 
-        if (f.indexOf("cable") > -1)
-            connection = "cable";
-        if (f.indexOf("3g") > -1)
-            connection = "3g";
-        if (f.indexOf("3gfast") > -1)
-            connection = "3gfast";
-        if (f.indexOf("native") > -1)
-            connection = "native";
-
+        let matches = f.match(RE)
+       
+        let pagespeed_benchmark_version = matches[1]
+        let host = matches[2]
+        let connection = matches[3]
+        let browser = matches[4]
+        let url = matches[5]
+        let datetime = matches[6]
+    
         let fileContent = FS.readFileSync(f).toString()
         let browsertimeMeasurement = JSON.parse(fileContent)
 
@@ -69,7 +74,10 @@ function getBrowsertimeData(parentResult) {
         browsertimeMeasurement.visualMetrics.forEach(visMet => {
             measurements.push({
                 connection,
+                browser,
+                host,
                 http_version,
+                pagespeed_benchmark_version,
                 name,
                 resources_count: browsertimeMeasurement.browserScripts[0].timings.resourceTimings.length,
                 timestamp: browsertimeMeasurement.info.timestamp,
@@ -81,12 +89,10 @@ function getBrowsertimeData(parentResult) {
                 windowSize: browsertimeMeasurement.browserScripts[0].browser.windowSize,
             })
         })
-
-
     })
 
 
-    let nestedMeasurements = D3.nest().key(d => d.name).key(d => d.connection).map(measurements.filter(d => d.http_version === "2.0"));
+    let nestedMeasurements = D3.nest().key(d => d.name).key(d => d.connection).map(measurements.filter(d => d.host === "grimgerde.fritz.dirk-rathje.de").filter(d => d.pagespeed_benchmark_version === "0.3.0").filter(d => d.http_version === "2.0"));
 
     nestedMeasurements.each((v, k) => {
 
@@ -103,9 +109,6 @@ function getBrowsertimeData(parentResult) {
         result[k].firstVisualChange_cable_mean = (v.get("cable")) ? Math.round(SS.mean(v.get("cable").map(v => v.firstVisualChange))) : undefined;
 
     })
-
-
-
     return result;
 
 }
@@ -143,7 +146,7 @@ function getGooglePagespeedAnanlysis(result) {
                         result[best_practices[i]].numberStaticResources = res.pageStats.numberStaticResources;
                         result[best_practices[i]].htmlResponseBytes = res.pageStats.htmlResponseBytes;
                         result[best_practices[i]].imageResponseBytes = res.pageStats.imageResponseBytes;
-                        result[best_practices[i]].imageResponsekBytes = Math.round(res.pageStats.imageResponseBytes /1024);
+                        result[best_practices[i]].imageResponsekBytes = Math.round(res.pageStats.imageResponseBytes / 1024);
                         result[best_practices[i]].javascriptResponseBytes = res.pageStats.javascriptResponseBytes;
                         result[best_practices[i]].javascriptResponsekBytes = Math.round(res.pageStats.javascriptResponseBytes / 1024);
                         result[best_practices[i]].cssResponseBytes = res.pageStats.cssResponseBytes;
@@ -159,7 +162,7 @@ function getGooglePagespeedAnanlysis(result) {
 
             let resultJSON = JSON.stringify(result, null, " ");
 
-            console.log(resultJSON)
+            
             FS.writeFileSync("_build/htdocs/results.json", resultJSON);
 
         })

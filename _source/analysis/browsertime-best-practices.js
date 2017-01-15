@@ -2,8 +2,14 @@
 
 
 const SHELL = require('shelljs');
-
+const PATH = require('path');
 const COMBINATORICS = require('js-combinatorics');
+
+
+const PACKAGE_VERSION = require('../../package.json').version;
+const HOSTNAME = require('os').hostname();
+const NUMBER_OF_ITERATIONS = 1
+const BROWSER = "firefox"
 
 let connections = [];
 connections.push("cable");
@@ -38,15 +44,15 @@ combinations.forEach(combination => {
     let url = "";
 
     if (http_version === "1.1")
-        url = "https://pagespeed-benchmark-http-1.4pi.eu/best-practices/" + name + ".html?" + Math.random();
+        url = "https://pagespeed-benchmark-http-1.4pi.eu/best-practices/" + name + ".html"
     else
-        url = "https://pagespeed-benchmark.4pi.eu/best-practices/" + name + ".html?" + Math.random();
+        url = "https://pagespeed-benchmark.4pi.eu/best-practices/" + name + ".html"
 
 
     let dockerRunCommand =
-        'docker run --privileged --shm-size=1g --rm -v "$(pwd)":/browsertime-results sitespeedio/browsertime -n 3 --speedIndex --viewPort 1024x800  -c ' + connection + ' ' + url;
+        'docker run --privileged --shm-size=1g --rm -v "$(pwd)":/browsertime-results sitespeedio/browsertime -n ' + NUMBER_OF_ITERATIONS + ' --speedIndex --viewPort 1024x800 -b ' + BROWSER + ' -c ' + connection + ' ' + url;
 
-    let resultPath = __dirname + '/../../_build/reports/browsertime/measurements/' + connection;
+    let resultPath = PATH.join(__dirname, '/../../_build/reports/browsertime/measurements/', PACKAGE_VERSION, HOSTNAME, connection, BROWSER);
 
     console.log("cd to ", resultPath)
 
