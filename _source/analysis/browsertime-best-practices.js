@@ -3,6 +3,10 @@
 
 const SHELL = require('shelljs');
 const PATH = require('path');
+const FS = require('fs');
+
+const GLOB = require('path');
+
 const COMBINATORICS = require('js-combinatorics');
 
 
@@ -52,7 +56,7 @@ combinations.forEach(combination => {
     let dockerRunCommand =
         'docker run --privileged --shm-size=1g --rm -v "$(pwd)":/browsertime-results sitespeedio/browsertime -n ' + NUMBER_OF_ITERATIONS + ' --speedIndex --viewPort 1024x800 -b ' + BROWSER + ' -c ' + connection + ' ' + url;
 
-    let resultPath = PATH.join(__dirname, '/../../_build/reports/browsertime/measurements/', PACKAGE_VERSION, HOSTNAME, connection, BROWSER);
+    let resultPath = PATH.join(__dirname, '/../../_measurements/', PACKAGE_VERSION, HOSTNAME, connection, BROWSER);
 
     console.log("cd to ", resultPath)
 
@@ -66,7 +70,15 @@ combinations.forEach(combination => {
 
         SHELL.echo('Succes: ' + dockerRunCommand);
     }
+})
 
 
+const jpgs = GLOB.sync("_measurements/**/*.jpg")
+
+jpgs.forEach(f => {
+
+    console.log(f)
+
+    FS.unlinkSync(f)
 })
 

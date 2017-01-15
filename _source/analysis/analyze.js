@@ -7,7 +7,7 @@ const D3 = require('d3');
 const SS = require("simple-statistics")
 
 
-const RE = new RegExp(/_results\/measurements\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/browsertime\.json/);
+const RE = new RegExp(/_measurements\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/(.*)\/browsertime\.json/);
 
 
 
@@ -40,10 +40,12 @@ function getBrowsertimeData(parentResult) {
 
     let result = JSON.parse(JSON.stringify(parentResult))
 
-    const browsertimeFiles = GLOB.sync("_results/measurements/**/browsertime.json")
+    const browsertimeFiles = GLOB.sync("_measurements/**/browsertime.json")
     let measurements = []
 
     browsertimeFiles.forEach(f => {
+
+        console.log(f)
 
 
         let matches = f.match(RE)
@@ -96,7 +98,7 @@ function getBrowsertimeData(parentResult) {
 
     nestedMeasurements.each((v, k) => {
 
-        console.log(k)
+        // console.log(k)
 
         result[k].speedindex_3g_numberOfMeasurements = (v.get("3g")) ? v.get("3g").length : 0;
         result[k].speedindex_3g_mean = (v.get("3g")) ? Math.round(SS.mean(v.get("3g").map(v => v.speedIndex))) : undefined;
@@ -134,7 +136,7 @@ function getGooglePagespeedAnanlysis(result) {
         .all(functionsDesktop.concat(functionsMobile))
         .then(results => {
 
-            console.log(JSON.stringify(results, null, "  "))
+            // console.log(JSON.stringify(results, null, "  "))
 
             results
                 .forEach((res, i) => {
@@ -161,6 +163,9 @@ function getGooglePagespeedAnanlysis(result) {
                 })
 
             let resultJSON = JSON.stringify(result, null, " ");
+
+
+            console.log(resultJSON)
 
             
             FS.writeFileSync("_build/htdocs/results.json", resultJSON);
