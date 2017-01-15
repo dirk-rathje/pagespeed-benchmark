@@ -29,7 +29,9 @@ module.exports = function (grunt) {
 
     grunt.initConfig(configs);
 
-    grunt.registerTask('build', ['clean:htdocs', 'webpack', 'pug', 'imagemin', 'grunticon', 'stylus', 'copy', 'critical']);
+    grunt.registerTask('build', ['clean:htdocs', 'webpack', 'copy', 'pug', 'imagemin', 'grunticon', 'stylus', 'purifycss', 'cssmin', 'htmlmin',
+    'critical'
+    ]);
     grunt.registerTask('measure', []);
 
     grunt.registerTask('default', ['build', 'measure']);

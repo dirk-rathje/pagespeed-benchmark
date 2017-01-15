@@ -2,7 +2,7 @@ include ../lorem.pug
 
 block vars
     - var data_jslibraries = "jslibraries-external"
-    - var data_bootstrap = "bootstrap-external"
+    - var data_css_assets = "bootstrap-external"
     - var data_assetsFolder = "../_uncompressed/"
     - var data_minifyInfix = "" // .min
     - var data_icons_external = ".icons-external" // .min
@@ -19,15 +19,15 @@ html(lang="de")
         meta(name="viewport", content="width=device-width, initial-scale=1")
         
         
-        if (data_bootstrap === "bootstrap-external")
+        if (data_css_assets === "bootstrap-external")
             link(href=data_assetsFolder + "bootstrap" + data_minifyInfix + ".css", rel="stylesheet")
             link(href=data_assetsFolder + "styles" +data_icons_external + data_minifyInfix + ".css", rel="stylesheet")
 
-        if (data_bootstrap === "bootstrap-bundled")
-            link(href=data_assetsFolder + "styles.bootstrap" + data_minifyInfix + ".css", rel="stylesheet")
+        if (data_css_assets === "bundled")
+            link(href=data_assetsFolder + "styles.bundled" + data_minifyInfix + ".css", rel="stylesheet")
 
-        if (data_bootstrap === "bootstrap-bundled-shaken")
-            link(href=data_assetsFolder + "styles.bootstrap-shaken" + data_minifyInfix + ".css", rel="stylesheet")
+        if (data_css_assets === "bundled_purified")
+            link(href=data_assetsFolder + "styles.bundled_purified" + data_minifyInfix + ".css", rel="stylesheet")
 
         if (data_jslibraries === "jslibraries-external")
             script(src=data_assetsFolder + "jquery" + data_minifyInfix + ".js")

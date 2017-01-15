@@ -10,9 +10,9 @@ module.exports = function (grunt, options) {
                 collapseWhitespace: true
             },
             files: [{
-                cwd: '<%= config.paths.build.prod %>',
+                cwd: '<%= config.paths.build.dev_htdocs %>',
                 src: ['**/*.html'],
-                dest: '<%= config.paths.build.prod %>',
+                dest: '<%= config.paths.build.dev_htdocs %>',
                 expand: true,
                 ext: '.html'
             }]
