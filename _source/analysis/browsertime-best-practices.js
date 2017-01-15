@@ -5,7 +5,7 @@ const SHELL = require('shelljs');
 const PATH = require('path');
 const FS = require('fs');
 
-const GLOB = require('path');
+const GLOB = require('glob');
 
 const COMBINATORICS = require('js-combinatorics');
 
