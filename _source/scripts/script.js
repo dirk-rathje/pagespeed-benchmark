@@ -1,6 +1,6 @@
 "use strict";
 
-let $ = require('jQuery')
+let $ = require('jquery')
 let d3 = require("d3")
 
 
