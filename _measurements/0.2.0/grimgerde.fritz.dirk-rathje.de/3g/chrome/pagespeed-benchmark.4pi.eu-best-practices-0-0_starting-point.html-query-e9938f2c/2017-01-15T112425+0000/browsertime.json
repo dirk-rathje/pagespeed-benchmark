@@ -1,0 +1,1183 @@
+{
+    "info": {
+        "browsertime": {
+            "version": "1.0.0-beta.20"
+        },
+        "url": "https://pagespeed-benchmark.4pi.eu/best-practices/0-0_starting-point.html?0.8053297700653488",
+        "timestamp": "2017-01-15T11:24:25+00:00"
+    },
+    "browserScripts": [
+        {
+            "browser": {
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
+                "windowSize": "1023x733"
+            },
+            "pageinfo": {
+                "documentHeight": 5067,
+                "documentTitle": "PageSpeed benchmark",
+                "documentWidth": 1008,
+                "responsive": true
+            },
+            "timings": {
+                "firstPaint": 5535,
+                "fullyLoaded": 6254.345000000001,
+                "navigationTiming": {
+                    "connectEnd": 1268,
+                    "connectStart": 306,
+                    "domComplete": 5888,
+                    "domContentLoadedEventEnd": 5512,
+                    "domContentLoadedEventStart": 5511,
+                    "domInteractive": 5511,
+                    "domLoading": 1743,
+                    "domainLookupEnd": 306,
+                    "domainLookupStart": 2,
+                    "fetchStart": 0,
+                    "loadEventEnd": 5889,
+                    "loadEventStart": 5888,
+                    "navigationStart": 0,
+                    "requestStart": 1269,
+                    "responseEnd": 1739,
+                    "responseStart": 1738,
+                    "secureConnectionStart": 629
+                },
+                "pageTimings": {
+                    "backEndTime": 1738,
+                    "domContentLoadedTime": 5511,
+                    "domInteractiveTime": 5511,
+                    "domainLookupTime": 304,
+                    "frontEndTime": 4149,
+                    "pageDownloadTime": 1,
+                    "pageLoadTime": 5888,
+                    "redirectionTime": 0,
+                    "serverConnectionTime": 962,
+                    "serverResponseTime": 470
+                },
+                "resourceTimings": [
+                    {
+                        "duration": 3677.5300000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/bootstrap.css",
+                        "startTime": 1744.255
+                    },
+                    {
+                        "duration": 3696.8399999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/styles.icons-external.css",
+                        "startTime": 1744.3650000000002
+                    },
+                    {
+                        "duration": 2102.3150000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/jquery.js",
+                        "startTime": 1744.5800000000002
+                    },
+                    {
+                        "duration": 3403.5350000000008,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/d3.js",
+                        "startTime": 1744.6750000000002
+                    },
+                    {
+                        "duration": 2189.2350000000006,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/script.js",
+                        "startTime": 1744.76
+                    },
+                    {
+                        "duration": 2198.92,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-600x400.jpg",
+                        "startTime": 1744.8850000000002
+                    },
+                    {
+                        "duration": 2259.9200000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-600x400.jpg",
+                        "startTime": 1745.23
+                    },
+                    {
+                        "duration": 2488.8100000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-600x400.jpg",
+                        "startTime": 1745.5100000000002
+                    },
+                    {
+                        "duration": 3696.2550000000006,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-600x400.jpg",
+                        "startTime": 1745.6950000000002
+                    },
+                    {
+                        "duration": 3704.2000000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-600x400.jpg",
+                        "startTime": 1745.9600000000003
+                    },
+                    {
+                        "duration": 3704.655000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-300x200.jpg",
+                        "startTime": 1746.15
+                    },
+                    {
+                        "duration": 3712.3150000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-300x200.jpg",
+                        "startTime": 1746.3350000000003
+                    },
+                    {
+                        "duration": 3712.6400000000012,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-300x200.jpg",
+                        "startTime": 1746.5400000000002
+                    },
+                    {
+                        "duration": 3908.63,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-300x200.jpg",
+                        "startTime": 1746.7250000000001
+                    },
+                    {
+                        "duration": 3723.330000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-300x200.jpg",
+                        "startTime": 1747.03
+                    },
+                    {
+                        "duration": 3754.1299999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-05-q50-300x200.jpg",
+                        "startTime": 1747.1550000000002
+                    },
+                    {
+                        "duration": 3723.5200000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-06-q50-300x200.jpg",
+                        "startTime": 1747.3450000000003
+                    },
+                    {
+                        "duration": 3756.0150000000003,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-07-q50-300x200.jpg",
+                        "startTime": 1747.535
+                    },
+                    {
+                        "duration": 3761.425,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-08-q50-300x200.jpg",
+                        "startTime": 1747.7300000000002
+                    },
+                    {
+                        "duration": 3760.6749999999993,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-09-q50-300x200.jpg",
+                        "startTime": 1747.9350000000002
+                    },
+                    {
+                        "duration": 3793.3650000000002,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-200x133.jpg",
+                        "startTime": 1748.0300000000002
+                    },
+                    {
+                        "duration": 3798.930000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-200x133.jpg",
+                        "startTime": 1748.2050000000002
+                    },
+                    {
+                        "duration": 3799.2200000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-200x133.jpg",
+                        "startTime": 1748.4100000000003
+                    },
+                    {
+                        "duration": 3836.1549999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-200x133.jpg",
+                        "startTime": 1748.6000000000001
+                    },
+                    {
+                        "duration": 3836.9550000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-200x133.jpg",
+                        "startTime": 1748.685
+                    },
+                    {
+                        "duration": 3904.7400000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-05-q50-200x133.jpg",
+                        "startTime": 1748.9200000000003
+                    },
+                    {
+                        "duration": 3905.460000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-06-q50-200x133.jpg",
+                        "startTime": 1749.03
+                    },
+                    {
+                        "duration": 3906.995000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-07-q50-200x133.jpg",
+                        "startTime": 1749.1650000000002
+                    },
+                    {
+                        "duration": 3973.205,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-08-q50-200x133.jpg",
+                        "startTime": 1749.26
+                    },
+                    {
+                        "duration": 3939.825,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-09-q50-200x133.jpg",
+                        "startTime": 1749.3600000000004
+                    },
+                    {
+                        "duration": 333.0799999999999,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-1.svg",
+                        "startTime": 5513.835
+                    },
+                    {
+                        "duration": 363.1449999999986,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-2.svg",
+                        "startTime": 5514.010000000001
+                    },
+                    {
+                        "duration": 363.59499999999935,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-3.svg",
+                        "startTime": 5514.205000000001
+                    },
+                    {
+                        "duration": 364.9850000000006,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-4.svg",
+                        "startTime": 5514.31
+                    },
+                    {
+                        "duration": 365.96499999999924,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-5.svg",
+                        "startTime": 5514.500000000001
+                    },
+                    {
+                        "duration": 366.5799999999999,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-6.svg",
+                        "startTime": 5514.655000000001
+                    },
+                    {
+                        "duration": 367.0400000000009,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-7.svg",
+                        "startTime": 5514.81
+                    },
+                    {
+                        "duration": 369.97500000000036,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-8.svg",
+                        "startTime": 5514.93
+                    },
+                    {
+                        "duration": 370.4150000000009,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-9.svg",
+                        "startTime": 5515.08
+                    },
+                    {
+                        "duration": 370.72999999999956,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-10.svg",
+                        "startTime": 5515.3150000000005
+                    },
+                    {
+                        "duration": 347.28000000000065,
+                        "name": "https://pagespeed-benchmark.4pi.eu/favicon.ico",
+                        "startTime": 5907.0650000000005
+                    }
+                ],
+                "rumSpeedIndex": 5542,
+                "userTimings": {
+                    "marks": [],
+                    "measures": []
+                }
+            }
+        },
+        {
+            "browser": {
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
+                "windowSize": "1023x733"
+            },
+            "pageinfo": {
+                "documentHeight": 5067,
+                "documentTitle": "PageSpeed benchmark",
+                "documentWidth": 1008,
+                "responsive": true
+            },
+            "timings": {
+                "firstPaint": 5656,
+                "fullyLoaded": 6890.835000000001,
+                "navigationTiming": {
+                    "connectEnd": 1273,
+                    "connectStart": 309,
+                    "domComplete": 6212,
+                    "domContentLoadedEventEnd": 5637,
+                    "domContentLoadedEventStart": 5636,
+                    "domInteractive": 5636,
+                    "domLoading": 1933,
+                    "domainLookupEnd": 309,
+                    "domainLookupStart": 4,
+                    "fetchStart": 0,
+                    "loadEventEnd": 6214,
+                    "loadEventStart": 6212,
+                    "navigationStart": 0,
+                    "requestStart": 1273,
+                    "responseEnd": 1930,
+                    "responseStart": 1929,
+                    "secureConnectionStart": 635
+                },
+                "pageTimings": {
+                    "backEndTime": 1929,
+                    "domContentLoadedTime": 5636,
+                    "domInteractiveTime": 5636,
+                    "domainLookupTime": 305,
+                    "frontEndTime": 4282,
+                    "pageDownloadTime": 1,
+                    "pageLoadTime": 6212,
+                    "redirectionTime": 0,
+                    "serverConnectionTime": 964,
+                    "serverResponseTime": 657
+                },
+                "resourceTimings": [
+                    {
+                        "duration": 1850.5300000000002,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/bootstrap.css",
+                        "startTime": 1935.7400000000002
+                    },
+                    {
+                        "duration": 1851.1200000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/styles.icons-external.css",
+                        "startTime": 1935.8700000000001
+                    },
+                    {
+                        "duration": 2771.4550000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/jquery.js",
+                        "startTime": 1935.9850000000001
+                    },
+                    {
+                        "duration": 3677.0550000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/d3.js",
+                        "startTime": 1936.0750000000003
+                    },
+                    {
+                        "duration": 3676.51,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/script.js",
+                        "startTime": 1936.16
+                    },
+                    {
+                        "duration": 3758.7100000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-600x400.jpg",
+                        "startTime": 1936.275
+                    },
+                    {
+                        "duration": 3956.2950000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-600x400.jpg",
+                        "startTime": 1936.395
+                    },
+                    {
+                        "duration": 3959.840000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-600x400.jpg",
+                        "startTime": 1936.4950000000001
+                    },
+                    {
+                        "duration": 4259.155000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-600x400.jpg",
+                        "startTime": 1936.5900000000001
+                    },
+                    {
+                        "duration": 3960.1850000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-600x400.jpg",
+                        "startTime": 1936.6850000000002
+                    },
+                    {
+                        "duration": 4259.384999999999,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-300x200.jpg",
+                        "startTime": 1936.7700000000002
+                    },
+                    {
+                        "duration": 4259.445000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-300x200.jpg",
+                        "startTime": 1936.8300000000002
+                    },
+                    {
+                        "duration": 4259.72,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-300x200.jpg",
+                        "startTime": 1936.9300000000003
+                    },
+                    {
+                        "duration": 4259.38,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-300x200.jpg",
+                        "startTime": 1937.0200000000002
+                    },
+                    {
+                        "duration": 4262.445000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-300x200.jpg",
+                        "startTime": 1937.1250000000002
+                    },
+                    {
+                        "duration": 4259.535,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-05-q50-300x200.jpg",
+                        "startTime": 1937.2300000000002
+                    },
+                    {
+                        "duration": 4259.55,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-06-q50-300x200.jpg",
+                        "startTime": 1937.3300000000002
+                    },
+                    {
+                        "duration": 4259.595000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-07-q50-300x200.jpg",
+                        "startTime": 1937.41
+                    },
+                    {
+                        "duration": 4259.595,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-08-q50-300x200.jpg",
+                        "startTime": 1937.51
+                    },
+                    {
+                        "duration": 4259.59,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-09-q50-300x200.jpg",
+                        "startTime": 1937.6200000000001
+                    },
+                    {
+                        "duration": 4259.655,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-200x133.jpg",
+                        "startTime": 1937.7600000000002
+                    },
+                    {
+                        "duration": 4259.765000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-200x133.jpg",
+                        "startTime": 1937.9
+                    },
+                    {
+                        "duration": 4259.825000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-200x133.jpg",
+                        "startTime": 1938.0450000000003
+                    },
+                    {
+                        "duration": 4259.91,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-200x133.jpg",
+                        "startTime": 1938.1500000000003
+                    },
+                    {
+                        "duration": 4260.02,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-200x133.jpg",
+                        "startTime": 1938.23
+                    },
+                    {
+                        "duration": 4260.16,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-05-q50-200x133.jpg",
+                        "startTime": 1938.3150000000003
+                    },
+                    {
+                        "duration": 4260.27,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-06-q50-200x133.jpg",
+                        "startTime": 1938.4
+                    },
+                    {
+                        "duration": 4260.65,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-07-q50-200x133.jpg",
+                        "startTime": 1938.4900000000002
+                    },
+                    {
+                        "duration": 4260.360000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-08-q50-200x133.jpg",
+                        "startTime": 1938.565
+                    },
+                    {
+                        "duration": 4260.804999999999,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-09-q50-200x133.jpg",
+                        "startTime": 1938.6500000000003
+                    },
+                    {
+                        "duration": 560.5500000000002,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-1.svg",
+                        "startTime": 5639.535000000001
+                    },
+                    {
+                        "duration": 561.7550000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-2.svg",
+                        "startTime": 5639.685
+                    },
+                    {
+                        "duration": 560.71,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-3.svg",
+                        "startTime": 5639.8
+                    },
+                    {
+                        "duration": 563.5900000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-4.svg",
+                        "startTime": 5639.910000000001
+                    },
+                    {
+                        "duration": 560.9099999999999,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-5.svg",
+                        "startTime": 5640.02
+                    },
+                    {
+                        "duration": 561.7599999999993,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-6.svg",
+                        "startTime": 5640.135000000001
+                    },
+                    {
+                        "duration": 563.6449999999995,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-7.svg",
+                        "startTime": 5640.255000000001
+                    },
+                    {
+                        "duration": 561.9650000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-8.svg",
+                        "startTime": 5640.35
+                    },
+                    {
+                        "duration": 562.6549999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-9.svg",
+                        "startTime": 5640.450000000001
+                    },
+                    {
+                        "duration": 562.1750000000002,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-10.svg",
+                        "startTime": 5640.56
+                    },
+                    {
+                        "duration": 666.6899999999996,
+                        "name": "https://pagespeed-benchmark.4pi.eu/favicon.ico",
+                        "startTime": 6224.145000000001
+                    }
+                ],
+                "rumSpeedIndex": 5782,
+                "userTimings": {
+                    "marks": [],
+                    "measures": []
+                }
+            }
+        },
+        {
+            "browser": {
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
+                "windowSize": "1023x733"
+            },
+            "pageinfo": {
+                "documentHeight": 5067,
+                "documentTitle": "PageSpeed benchmark",
+                "documentWidth": 1008,
+                "responsive": true
+            },
+            "timings": {
+                "firstPaint": 5427,
+                "fullyLoaded": 6615.080000000001,
+                "navigationTiming": {
+                    "connectEnd": 1332,
+                    "connectStart": 373,
+                    "domComplete": 5971,
+                    "domContentLoadedEventEnd": 5405,
+                    "domContentLoadedEventStart": 5404,
+                    "domInteractive": 5404,
+                    "domLoading": 1980,
+                    "domainLookupEnd": 373,
+                    "domainLookupStart": 3,
+                    "fetchStart": 1,
+                    "loadEventEnd": 5972,
+                    "loadEventStart": 5971,
+                    "navigationStart": 0,
+                    "requestStart": 1332,
+                    "responseEnd": 1978,
+                    "responseStart": 1977,
+                    "secureConnectionStart": 699
+                },
+                "pageTimings": {
+                    "backEndTime": 1977,
+                    "domContentLoadedTime": 5404,
+                    "domInteractiveTime": 5404,
+                    "domainLookupTime": 370,
+                    "frontEndTime": 3993,
+                    "pageDownloadTime": 1,
+                    "pageLoadTime": 5971,
+                    "redirectionTime": 1,
+                    "serverConnectionTime": 959,
+                    "serverResponseTime": 646
+                },
+                "resourceTimings": [
+                    {
+                        "duration": 1542.3250000000003,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/bootstrap.css",
+                        "startTime": 1981.4900000000002
+                    },
+                    {
+                        "duration": 1544.8750000000002,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/styles.icons-external.css",
+                        "startTime": 1981.5800000000002
+                    },
+                    {
+                        "duration": 2465.625,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/jquery.js",
+                        "startTime": 1981.6900000000003
+                    },
+                    {
+                        "duration": 3376.395,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/d3.js",
+                        "startTime": 1981.7800000000002
+                    },
+                    {
+                        "duration": 3417.6350000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_uncompressed/script.js",
+                        "startTime": 1981.8600000000001
+                    },
+                    {
+                        "duration": 3622.7400000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-600x400.jpg",
+                        "startTime": 1981.9700000000003
+                    },
+                    {
+                        "duration": 3647.1550000000007,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-600x400.jpg",
+                        "startTime": 1982.1000000000001
+                    },
+                    {
+                        "duration": 3662.365,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-600x400.jpg",
+                        "startTime": 1982.265
+                    },
+                    {
+                        "duration": 3969.6200000000003,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-600x400.jpg",
+                        "startTime": 1982.4100000000003
+                    },
+                    {
+                        "duration": 3671.5299999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-600x400.jpg",
+                        "startTime": 1982.5100000000002
+                    },
+                    {
+                        "duration": 3969.76,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-300x200.jpg",
+                        "startTime": 1982.595
+                    },
+                    {
+                        "duration": 3970.03,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-300x200.jpg",
+                        "startTime": 1982.69
+                    },
+                    {
+                        "duration": 3970.1250000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-300x200.jpg",
+                        "startTime": 1982.7800000000002
+                    },
+                    {
+                        "duration": 3970.255000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-300x200.jpg",
+                        "startTime": 1982.8700000000001
+                    },
+                    {
+                        "duration": 3970.33,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-300x200.jpg",
+                        "startTime": 1982.9750000000001
+                    },
+                    {
+                        "duration": 3970.4449999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-05-q50-300x200.jpg",
+                        "startTime": 1983.095
+                    },
+                    {
+                        "duration": 3970.5849999999996,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-06-q50-300x200.jpg",
+                        "startTime": 1983.1950000000002
+                    },
+                    {
+                        "duration": 3970.795,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-07-q50-300x200.jpg",
+                        "startTime": 1983.305
+                    },
+                    {
+                        "duration": 3971.425,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-08-q50-300x200.jpg",
+                        "startTime": 1983.405
+                    },
+                    {
+                        "duration": 3970.955,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-09-q50-300x200.jpg",
+                        "startTime": 1983.5000000000002
+                    },
+                    {
+                        "duration": 3971.455,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-00-q50-200x133.jpg",
+                        "startTime": 1983.5900000000001
+                    },
+                    {
+                        "duration": 3971.625,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-01-q50-200x133.jpg",
+                        "startTime": 1983.6750000000002
+                    },
+                    {
+                        "duration": 3971.9550000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-02-q50-200x133.jpg",
+                        "startTime": 1983.775
+                    },
+                    {
+                        "duration": 3971.6150000000002,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-03-q50-200x133.jpg",
+                        "startTime": 1983.8700000000003
+                    },
+                    {
+                        "duration": 3972.5150000000003,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-04-q50-200x133.jpg",
+                        "startTime": 1983.95
+                    },
+                    {
+                        "duration": 3972.1500000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-05-q50-200x133.jpg",
+                        "startTime": 1984.0400000000002
+                    },
+                    {
+                        "duration": 3972.84,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-06-q50-200x133.jpg",
+                        "startTime": 1984.1250000000002
+                    },
+                    {
+                        "duration": 3973.9750000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-07-q50-200x133.jpg",
+                        "startTime": 1984.2050000000002
+                    },
+                    {
+                        "duration": 3973.1000000000004,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-08-q50-200x133.jpg",
+                        "startTime": 1984.265
+                    },
+                    {
+                        "duration": 3973.435,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/min/photo-09-q50-200x133.jpg",
+                        "startTime": 1984.355
+                    },
+                    {
+                        "duration": 551.6549999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-1.svg",
+                        "startTime": 5407.400000000001
+                    },
+                    {
+                        "duration": 552.1899999999996,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-2.svg",
+                        "startTime": 5407.545000000001
+                    },
+                    {
+                        "duration": 554.2950000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-3.svg",
+                        "startTime": 5407.715
+                    },
+                    {
+                        "duration": 552.5299999999997,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-4.svg",
+                        "startTime": 5407.885
+                    },
+                    {
+                        "duration": 553.130000000001,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-5.svg",
+                        "startTime": 5408
+                    },
+                    {
+                        "duration": 554.7300000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-6.svg",
+                        "startTime": 5408.125
+                    },
+                    {
+                        "duration": 555.1899999999996,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-7.svg",
+                        "startTime": 5408.3150000000005
+                    },
+                    {
+                        "duration": 555.8150000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-8.svg",
+                        "startTime": 5408.45
+                    },
+                    {
+                        "duration": 557.0650000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-9.svg",
+                        "startTime": 5408.645
+                    },
+                    {
+                        "duration": 556.21,
+                        "name": "https://pagespeed-benchmark.4pi.eu/_images/icons/menu-10.svg",
+                        "startTime": 5408.775000000001
+                    },
+                    {
+                        "duration": 639.0650000000005,
+                        "name": "https://pagespeed-benchmark.4pi.eu/favicon.ico",
+                        "startTime": 5976.015
+                    }
+                ],
+                "rumSpeedIndex": 5614,
+                "userTimings": {
+                    "marks": [],
+                    "measures": []
+                }
+            }
+        }
+    ],
+    "statistics": {
+        "pageinfo": {
+            "documentHeight": {
+                "median": 5067,
+                "mean": 5067,
+                "mdev": 0,
+                "min": 5067,
+                "p10": 5067,
+                "p90": 5067,
+                "p99": 5067,
+                "max": 5067
+            },
+            "documentWidth": {
+                "median": 1008,
+                "mean": 1008,
+                "mdev": 0,
+                "min": 1008,
+                "p10": 1008,
+                "p90": 1008,
+                "p99": 1008,
+                "max": 1008
+            }
+        },
+        "timings": {
+            "firstPaint": {
+                "median": 5535,
+                "mean": 5539,
+                "mdev": 46.76952949184852,
+                "min": 5427,
+                "p10": 5427,
+                "p90": 5656,
+                "p99": 5656,
+                "max": 5656
+            },
+            "fullyLoaded": {
+                "median": 6615,
+                "mean": 6587,
+                "mdev": 130.3084034501358,
+                "min": 6254,
+                "p10": 6254,
+                "p90": 6891,
+                "p99": 6891,
+                "max": 6891
+            },
+            "navigationTiming": {
+                "connectEnd": {
+                    "median": 1273,
+                    "mean": 1291,
+                    "mdev": 14.53157481715821,
+                    "min": 1268,
+                    "p10": 1268,
+                    "p90": 1332,
+                    "p99": 1332,
+                    "max": 1332
+                },
+                "connectStart": {
+                    "median": 309,
+                    "mean": 329,
+                    "mdev": 15.45063824643572,
+                    "min": 306,
+                    "p10": 306,
+                    "p90": 373,
+                    "p99": 373,
+                    "max": 373
+                },
+                "domComplete": {
+                    "median": 5971,
+                    "mean": 6024,
+                    "mdev": 68.70751212365518,
+                    "min": 5888,
+                    "p10": 5888,
+                    "p90": 6212,
+                    "p99": 6212,
+                    "max": 6212
+                },
+                "domContentLoadedEventEnd": {
+                    "median": 5512,
+                    "mean": 5518,
+                    "mdev": 47.404289538676416,
+                    "min": 5405,
+                    "p10": 5405,
+                    "p90": 5637,
+                    "p99": 5637,
+                    "max": 5637
+                },
+                "domContentLoadedEventStart": {
+                    "median": 5511,
+                    "mean": 5517,
+                    "mdev": 47.404289538676416,
+                    "min": 5404,
+                    "p10": 5404,
+                    "p90": 5636,
+                    "p99": 5636,
+                    "max": 5636
+                },
+                "domInteractive": {
+                    "median": 5511,
+                    "mean": 5517,
+                    "mdev": 47.404289538676416,
+                    "min": 5404,
+                    "p10": 5404,
+                    "p90": 5636,
+                    "p99": 5636,
+                    "max": 5636
+                },
+                "domLoading": {
+                    "median": 1933,
+                    "mean": 1885,
+                    "mdev": 51.22878964887701,
+                    "min": 1743,
+                    "p10": 1743,
+                    "p90": 1980,
+                    "p99": 1980,
+                    "max": 1980
+                },
+                "domainLookupEnd": {
+                    "median": 309,
+                    "mean": 329,
+                    "mdev": 15.45063824643572,
+                    "min": 306,
+                    "p10": 306,
+                    "p90": 373,
+                    "p99": 373,
+                    "max": 373
+                },
+                "domainLookupStart": {
+                    "median": 3,
+                    "mean": 3,
+                    "mdev": 0.408248290463863,
+                    "min": 2,
+                    "p10": 2,
+                    "p90": 4,
+                    "p99": 4,
+                    "max": 4
+                },
+                "fetchStart": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0.23570226039551584,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 1,
+                    "p99": 1,
+                    "max": 1
+                },
+                "loadEventEnd": {
+                    "median": 5972,
+                    "mean": 6025,
+                    "mdev": 68.93596062046765,
+                    "min": 5889,
+                    "p10": 5889,
+                    "p90": 6214,
+                    "p99": 6214,
+                    "max": 6214
+                },
+                "loadEventStart": {
+                    "median": 5971,
+                    "mean": 6024,
+                    "mdev": 68.70751212365518,
+                    "min": 5888,
+                    "p10": 5888,
+                    "p90": 6212,
+                    "p99": 6212,
+                    "max": 6212
+                },
+                "navigationStart": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 0,
+                    "p99": 0,
+                    "max": 0
+                },
+                "requestStart": {
+                    "median": 1273,
+                    "mean": 1291,
+                    "mdev": 14.401003051485299,
+                    "min": 1269,
+                    "p10": 1269,
+                    "p90": 1332,
+                    "p99": 1332,
+                    "max": 1332
+                },
+                "responseEnd": {
+                    "median": 1930,
+                    "mean": 1882,
+                    "mdev": 51.61448978296265,
+                    "min": 1739,
+                    "p10": 1739,
+                    "p90": 1978,
+                    "p99": 1978,
+                    "max": 1978
+                },
+                "responseStart": {
+                    "median": 1929,
+                    "mean": 1881,
+                    "mdev": 51.61448978296265,
+                    "min": 1738,
+                    "p10": 1738,
+                    "p90": 1977,
+                    "p99": 1977,
+                    "max": 1977
+                },
+                "secureConnectionStart": {
+                    "median": 635,
+                    "mean": 654,
+                    "mdev": 15.839472494022296,
+                    "min": 629,
+                    "p10": 629,
+                    "p90": 699,
+                    "p99": 699,
+                    "max": 699
+                }
+            },
+            "pageTimings": {
+                "backEndTime": {
+                    "median": 1929,
+                    "mean": 1881,
+                    "mdev": 51.61448978296265,
+                    "min": 1738,
+                    "p10": 1738,
+                    "p90": 1977,
+                    "p99": 1977,
+                    "max": 1977
+                },
+                "domContentLoadedTime": {
+                    "median": 5511,
+                    "mean": 5517,
+                    "mdev": 47.404289538676416,
+                    "min": 5404,
+                    "p10": 5404,
+                    "p90": 5636,
+                    "p99": 5636,
+                    "max": 5636
+                },
+                "domInteractiveTime": {
+                    "median": 5511,
+                    "mean": 5517,
+                    "mdev": 47.404289538676416,
+                    "min": 5404,
+                    "p10": 5404,
+                    "p90": 5636,
+                    "p99": 5636,
+                    "max": 5636
+                },
+                "domainLookupTime": {
+                    "median": 305,
+                    "mean": 326,
+                    "mdev": 15.439847437357951,
+                    "min": 304,
+                    "p10": 304,
+                    "p90": 370,
+                    "p99": 370,
+                    "max": 370
+                },
+                "frontEndTime": {
+                    "median": 4149,
+                    "mean": 4141,
+                    "mdev": 59.05411830591402,
+                    "min": 3993,
+                    "p10": 3993,
+                    "p90": 4282,
+                    "p99": 4282,
+                    "max": 4282
+                },
+                "pageDownloadTime": {
+                    "median": 1,
+                    "mean": 1,
+                    "mdev": 0,
+                    "min": 1,
+                    "p10": 1,
+                    "p90": 1,
+                    "p99": 1,
+                    "max": 1
+                },
+                "pageLoadTime": {
+                    "median": 5971,
+                    "mean": 6024,
+                    "mdev": 68.70751212365518,
+                    "min": 5888,
+                    "p10": 5888,
+                    "p90": 6212,
+                    "p99": 6212,
+                    "max": 6212
+                },
+                "redirectionTime": {
+                    "median": 0,
+                    "mean": 0,
+                    "mdev": 0.23570226039551584,
+                    "min": 0,
+                    "p10": 0,
+                    "p90": 1,
+                    "p99": 1,
+                    "max": 1
+                },
+                "serverConnectionTime": {
+                    "median": 962,
+                    "mean": 962,
+                    "mdev": 1.0274023338281628,
+                    "min": 959,
+                    "p10": 959,
+                    "p90": 964,
+                    "p99": 964,
+                    "max": 964
+                },
+                "serverResponseTime": {
+                    "median": 646,
+                    "mean": 591,
+                    "mdev": 42.838845300342385,
+                    "min": 470,
+                    "p10": 470,
+                    "p90": 657,
+                    "p99": 657,
+                    "max": 657
+                }
+            },
+            "rumSpeedIndex": {
+                "median": 5614,
+                "mean": 5646,
+                "mdev": 50.27922035990614,
+                "min": 5542,
+                "p10": 5542,
+                "p90": 5782,
+                "p99": 5782,
+                "max": 5782
+            }
+        },
+        "visualMetrics": {
+            "SpeedIndex": {
+                "median": 5588,
+                "mean": 5635,
+                "mdev": 47.07676945396978,
+                "min": 5550,
+                "p10": 5550,
+                "p90": 5766,
+                "p99": 5766,
+                "max": 5766
+            },
+            "PerceptualSpeedIndex": {
+                "median": 5593,
+                "mean": 5614,
+                "mdev": 47.14752261666448,
+                "min": 5511,
+                "p10": 5511,
+                "p90": 5739,
+                "p99": 5739,
+                "max": 5739
+            },
+            "FirstVisualChange": {
+                "median": 5584,
+                "mean": 5572,
+                "mdev": 47.73945491473018,
+                "min": 5450,
+                "p10": 5450,
+                "p90": 5683,
+                "p99": 5683,
+                "max": 5683
+            },
+            "LastVisualChange": {
+                "median": 6317,
+                "mean": 6322,
+                "mdev": 132.69409264252204,
+                "min": 6000,
+                "p10": 6000,
+                "p90": 6650,
+                "p99": 6650,
+                "max": 6650
+            }
+        }
+    },
+    "visualMetrics": [
+        {
+            "SpeedIndex": 5588,
+            "PerceptualSpeedIndex": 5593,
+            "FirstVisualChange": 5584,
+            "LastVisualChange": 6317,
+            "VisualProgress": "0=0%, 5584=98%, 5600=98%, 5617=98%, 5634=98%, 5650=98%, 5684=99%, 5717=99%, 5867=99%, 5900=99%, 5934=100%, 6200=100%, 6234=100%, 6284=100%, 6317=100%"
+        },
+        {
+            "SpeedIndex": 5766,
+            "PerceptualSpeedIndex": 5739,
+            "FirstVisualChange": 5683,
+            "LastVisualChange": 6650,
+            "VisualProgress": "0=0%, 5683=10%, 5700=66%, 5717=66%, 5733=66%, 5750=66%, 5767=66%, 5817=66%, 5883=96%, 5900=96%, 5917=96%, 5933=96%, 5950=98%, 6000=99%, 6233=100%, 6517=100%, 6567=100%, 6600=100%, 6650=100%"
+        },
+        {
+            "SpeedIndex": 5550,
+            "PerceptualSpeedIndex": 5511,
+            "FirstVisualChange": 5450,
+            "LastVisualChange": 6000,
+            "VisualProgress": "0=0%, 5450=10%, 5484=66%, 5500=66%, 5517=66%, 5534=66%, 5567=66%, 5634=66%, 5650=66%, 5667=96%, 5684=96%, 5700=97%, 5717=97%, 5734=98%, 5767=98%, 5984=99%, 6000=100%"
+        }
+    ]
+}
